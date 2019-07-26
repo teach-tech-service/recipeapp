@@ -1,4 +1,4 @@
-import mongoose, { Schema, mongo, SchemaTypes } from "mongoose";
+import mongoose, { Schema } from "mongoose";
 import { difficultyEnums } from "../enums/recipe";
 import ingredientSchema from "./ingredient";
 import stepSchema from "./step";
@@ -42,9 +42,14 @@ const recipeSchema = new Schema({
   allergens: [allergenSchema],
   author: {
     ref: "user",
-    type: SchemaTypes.ObjectId
+    type: mongoose.Schema.Types.ObjectId
   },
-  cuisine: {}
+  cuisine: {
+    type: String,
+    required: true,
+    min: 2,
+    max: 50
+  }
 });
 
 export default mongoose.model("recipe", recipeSchema);

@@ -10,7 +10,7 @@ const stepSchema = new Schema({
   description: {
     type: String,
     required: true,
-    maxlength: 200
+    maxlength: 400
   },
   image: {
     type: String
