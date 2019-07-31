@@ -99,6 +99,9 @@
         "allergens": [
             {
                 "name": "milk"
+            },
+            {
+                "name":"gluten"
             }
         ],
         "cuisine": "polska"
@@ -204,7 +207,11 @@
                 "image": ""
             }
         ],
-        "allergens": [],
+        "allergens": [
+            {
+                "name": "milk"
+            }
+        ],
         "cuisine": "chińska"
     },
     {
@@ -246,7 +253,7 @@
             },
             {
                 "number": 2,
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+                "description": "chiń ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
             },
             {
                 "number": 3,
@@ -255,12 +262,12 @@
             }
         ],
         "allergens": [],
-        "cuisine": "rosyjska"
+        "cuisine": "chińska"
     },
     {
         "name": "SERNIK Z FRUŻELINĄ JAGODOWĄ, BEZĄ I KRUSZONKĄ",
         "description": "Sernik na kruchym spodzie z frużeliną.Sernik wyszedł aksamitny i pyszny.",
-        "difficulty": "medium",
+        "difficulty": "easy",
         "time": "2:00",
         "heroImage": "5.jpeg",
         "ingredients": [
@@ -305,11 +312,11 @@
             }
         ],
         "allergens": [],
-        "cuisine": "polska"
+        "cuisine": "chińska"
     },
     {
         "name": "BISZKOPTOWA ROLADA Z PAPIERÓWKAMI",
-        "description": "Rolada sezonowa, bo najlepszymi jabłkami do niej to papierówki. Szybkie ciasto, zwijane po upieczeniu.Ciasto miękkie, winne i pyszne. Piekę je od kilkudziesięciu lat, tutaj zmieniłam proporcje.",
+        "description": "CHiń sezonowa, bo najlepszymi jabłkami do niej to papierówki. Szybkie ciasto, zwijane po upieczeniu.Ciasto miękkie, winne i pyszne. Piekę je od kilkudziesięciu lat, tutaj zmieniłam proporcje.",
         "difficulty": "medium",
         "time": "2:00",
         "heroImage": "6.jpeg",
@@ -404,58 +411,12 @@
                 "image": ""
             }
         ],
-        "allergens": [],
-        "cuisine": "polska"
-    },
-    {
-        "name": "Sałatka z ziemniaków cukinii z fetą i miętą",
-        "description": "Młode smażone ziemniaki, żółta cukinia, mięta, skórka z cytryny oraz słona feta.",
-        "difficulty": "medium",
-        "time": "2:00",
-        "heroImage": "8.jpeg",
-        "ingredients": [
+        "allergens": [
             {
-                "name": "ziemniaki",
-                "value": "1/2 kg"
-            },
-            {
-                "name": "cebuli",
-                "value": "1/4"
-            },
-            {
-                "name": "mąki pszennej",
-                "value": "1/2"
-            },
-            {
-                "name": "jajko",
-                "value": "1"
-            },
-            {
-                "name": "olej roślinny do smażenia",
-                "value": ""
-            },
-            {
-                "name": "sól",
-                "value": ""
+                "name":"nuts"
             }
         ],
-        "steps": [
-            {
-                "number": 1,
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
-            },
-            {
-                "number": 2,
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
-            },
-            {
-                "number": 3,
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
-                "image": ""
-            }
-        ],
-        "allergens": [],
-        "cuisine": "japońska"
+        "cuisine": "chińska"
     },
     {
         "name": "DROŻDŻOWE BUŁECZKI A'LA HOKKAIDO",

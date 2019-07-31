@@ -52,5 +52,4 @@ const recipeSchema = new Schema({
     max: 50
   }
 });
-
 export default mongoose.model("recipe", recipeSchema);

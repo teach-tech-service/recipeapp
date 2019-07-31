@@ -1,13 +1,16 @@
 import RecipeModel from "../models/recipe";
 import { Types } from "mongoose";
 
+const { ObjectId } = Types;
+
 export async function getRecipeById(req, res) {
-  if (!req.params.id) {
+  const {id} = req.params
+  if (!id) {
     return res.status(400).send({});
   }
 
   const recipe = await RecipeModel.findOne({
-    _id: new Types.ObjectId(req.params.id)
+    _id: new ObjectId(id)
   });
 
   if (!recipe) {

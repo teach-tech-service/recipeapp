@@ -12,7 +12,9 @@ const Router = express.Router();
 mongodbConnection(MONGO_DB_URL);
 
 app.use("/api/recipe", recipeRoutes(Router));
-//app.use("/api/search", searchRoutes(Router));
+app.use("/api/search", searchRoutes(Router));
+
+
 
 app.listen(PORT, () => {
   console.log(`Application is running on port ${PORT}`);
