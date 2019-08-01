@@ -5,7 +5,6 @@ export async function searchRecipe(req, res) {
     "cuisine",
     "term",
     "allergens",
-    "ingredients",
     "difficulty"
   ];
   let matchObj = {};

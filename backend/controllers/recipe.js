@@ -4,7 +4,7 @@ import { Types } from "mongoose";
 const { ObjectId } = Types;
 
 export async function getRecipeById(req, res) {
-  const {id} = req.params
+  const { id } = req.params;
   if (!id) {
     return res.status(400).send({});
   }
@@ -35,7 +35,7 @@ export function getRecipePage(req, res) {
   };
 
   const getNumberOfRecipes = async function() {
-    const numberofRecipes = await RecipeModel.count({});
+    const numberofRecipes = await RecipeModel.countDocuments({});
     return numberofRecipes;
   };
 
@@ -50,6 +50,60 @@ export function getRecipePage(req, res) {
       recipes: result[0],
       numberOfRecipes: result[1],
       currentPage: req.params.page
+    });
+  });
+}
+
+export function getRecipeInfo(req, res) {
+  const getDistinctAllergens = async function() {
+    const distinctAllergens = await RecipeModel.aggregate([
+      {
+        $unwind: "$allergens"
+      },
+      {
+        $group: {
+          _id: "$allergens.name",
+          count: {
+            $sum: 1
+          }
+        }
+      },
+      {
+        $project: {
+          _id: 0,
+          name: "$_id",
+          count: 1
+        }
+      }
+    ]);
+    return distinctAllergens;
+  };
+
+  const getDistinctCuisine = async function() {
+    const distinctCuisine = await RecipeModel.aggregate([
+      {
+        $group: {
+          _id: "$cuisine",
+          count: {
+            $sum: 1
+          }
+        }
+      },
+      {
+        $project: {
+          _id: 0,
+          name: "$_id",
+          count: 1
+        }
+      }
+    ]);
+    return distinctCuisine;
+  };
+
+  Promise.all([getDistinctAllergens(), getDistinctCuisine()]).then(result => {
+    res.send({
+      allergens: result[0],
+      cuisine: result[1]
     });
   });
 }
