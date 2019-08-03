@@ -1,6 +1,9 @@
-import {searchRecipe} from '../controllers/search'
+import { searchRecipe } from "../controllers/search";
+import express from "express";
 
-export default router => {
+const router = express.Router();
+
+export default () => {
   router.get("/", searchRecipe);
   return router;
 };
