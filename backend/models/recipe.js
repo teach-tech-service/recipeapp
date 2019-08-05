@@ -50,6 +50,11 @@ const recipeSchema = new Schema({
     required: true,
     min: 2,
     max: 50
+  },
+  createdAt: {
+    type: Date,
+    required: true,
+    default: new Date()
   }
 });
 export default mongoose.model("recipe", recipeSchema);

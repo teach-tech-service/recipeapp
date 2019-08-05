@@ -29,9 +29,12 @@ export default URI => {
                 }
                 const recipes = JSON.parse(data);
                 for (let i = 0; i < recipes.length; i++) {
+                  let date = new Date();
+                  date.setDate(date.getDate() - i);
+                  recipes[i].createdAt = date;
                   recipes[i].author = createdUsers[0]._id;
                 }
-                RecipeModel.insertMany(recipes)
+                RecipeModel.insertMany(recipes);
               }
             );
           });

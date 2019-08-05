@@ -36,6 +36,11 @@ const UserSchema = new Schema({
     required: true,
     minlength: 2,
     maxlength: 40
+  },
+  createdAt: {
+    type: Date,
+    required: true,
+    default: new Date()
   }
 });
 
