@@ -42,8 +42,9 @@ const recipeSchema = new Schema({
   steps: [stepSchema],
   allergens: [allergenSchema],
   author: {
-    ref: "user",
-    type: mongoose.Schema.Types.ObjectId
+    type: String,
+    default: "john",
+    required: true
   },
   cuisine: {
     type: String,

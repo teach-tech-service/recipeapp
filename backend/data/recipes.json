@@ -4,6 +4,7 @@
         "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
         "difficulty": "medium",
         "time": "2:00",
+        "author": "micheal",
         "heroImage": "1.jpeg",
         "ingredients": [
             {
@@ -101,7 +102,7 @@
                 "name": "milk"
             },
             {
-                "name":"gluten"
+                "name": "gluten"
             }
         ],
         "cuisine": "polska"
@@ -111,6 +112,7 @@
         "description": "Lorem ipsum set albbbbb",
         "difficulty": "easy",
         "time": "1:00",
+        "author": "micheal",
         "heroImage": "2.jpeg",
         "ingredients": [
             {
@@ -165,6 +167,7 @@
         "description": "Sernik podobny do poprzedniego. Sernik wyszedł idealny, przepyszny",
         "difficulty": "medium",
         "time": "2:00",
+        "author":"micheal",
         "heroImage": "3.jpeg",
         "ingredients": [
             {
@@ -413,7 +416,7 @@
         ],
         "allergens": [
             {
-                "name":"nuts"
+                "name": "nuts"
             }
         ],
         "cuisine": "chińska"
@@ -1272,6 +1275,7 @@
         "name": "Ziemniaki z masełkiem ziołowo cosnkowym ze schabowym w krakersowej panierce",
         "description": "Ziemniaczki okraszane masełkiem z dodatkami-aromatycznymi, do tego chrupiący schabowy, ogórek małosolny i danie dla mięsożerców gotowe:)Wspaniały aromat dania zwabi bardzo szybko domowników do rodzinnego stołu.",
         "difficulty": "medium",
+        "author":"martin",
         "time": "2:00",
         "heroImage": "26.jpeg",
         "ingredients": [

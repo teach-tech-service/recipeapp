@@ -106,3 +106,35 @@ export function getRecipeInfo(req, res) {
     });
   });
 }
+
+export async function postRecipe(req, res) {
+  const allowProperties = [
+    "name",
+    "description",
+    "difficulty",
+    "time",
+    "author",
+    "heroImage",
+    "ingredients",
+    "steps",
+    "allergens",
+    "cuisine"
+  ];
+
+  let obj = {};
+
+  for (let key in req.body.recipe) {
+    if (allowProperties.includes(key)) {
+      obj[key] = req.body.recipe[key];
+    }
+  }
+
+  let recipe = new RecipeModel(obj);
+  recipe.save(err => {
+    if (err) {
+      console.log(err)
+      return res.status(400).send({});
+    }
+    res.send({});
+  });
+}
