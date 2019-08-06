@@ -34,6 +34,10 @@ export default URI => {
                   recipes[i].createdAt = date;
                   recipes[i].author = createdUsers[0]._id;
                 }
+                let date = new Date();
+                date.setDate(date.getDate() - 5);
+                recipes[1].createdAt = date;
+                recipes[2].createdAt = date;
                 RecipeModel.insertMany(recipes);
               }
             );

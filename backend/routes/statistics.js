@@ -8,7 +8,7 @@ import {
 const router = express.Router();
 
 export default () => {
-  router.get("/numberOfRecipes/:numberOfWeeks", getNumberOfRecipes);
+  router.get("/numberOfRecipes/:numberOfDays", getNumberOfRecipes);
   router.get("/cuisines", getCuisines);
   router.get("/difficulty", getDifficulty);
   return router;
