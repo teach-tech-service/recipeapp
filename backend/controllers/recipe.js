@@ -21,7 +21,6 @@ export async function getRecipeById(req, res) {
 }
 
 export function getRecipePage(req, res) {
-  console.log((Number(req.params.page) - 1) * 10);
   const getRecipePage = async function() {
     const recipes = await RecipeModel.aggregate([
       {

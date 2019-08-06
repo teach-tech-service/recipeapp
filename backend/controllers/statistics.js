@@ -32,8 +32,6 @@ export async function getNumberOfRecipes(req, res) {
 
   let weekBehind = new Date();
   weekBehind.setDate(weekBehind.getDate() - Number(req.params.numberOfDays));
-  console.log(recipeWithDates);
-  console.log(weekBehind);
   let arr = [];
   for (let i = recipeWithDates.length - 1; i >= 0; i--) {
     if (

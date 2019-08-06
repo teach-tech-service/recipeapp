@@ -49,33 +49,3 @@ export async function searchRecipe(req, res) {
     res.send({ numberOfRows: result[0], filteredRecipes: result[1] });
   });
 }
-
-// db.recipes.find({"allergens":{
-//   $elemMatch: {
-//       name: "milk"
-//   }
-// }})
-
-// db.recipes.aggregate([
-//   {
-//     $unwind:"$allergens"
-//   },
-//   {
-//       $group: {
-//           _id: {
-//               _id: "$_id",
-//               value: "milk"
-//           },
-//           array: {
-//               $push: "$allergens.name"
-//           }
-//       }
-//   },
-//   {
-//       array: {
-//           $elemMatch: {
-
-//           }
-//       }
-//   }
-//   ])
