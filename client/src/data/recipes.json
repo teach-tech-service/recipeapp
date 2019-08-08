@@ -1,0 +1,1591 @@
+[
+    {
+        "id": 1,
+        "name": "Przepis na placki ziemniaczane",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 2,
+        "name": "Przepis na placki ziemniaczane",
+        "description": "Pierogi ruskie są bardzo popularne głownie na Ukrainie i w Polsce. Błędnie zakłada się, że pochodzą z Rosji. Ten prosty i sprawdzony przepis na pyszne pierogi ruskie jest moim ulubionym. Pierożki najlepiej smakują okraszone podsmażaną na maśle klarowanym cebulą. Niektórzy jednak wolą je ze śmietaną, czy też z kminkiem.",
+        "difficulty": "hard",
+        "time": "2:30",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            }
+        ],
+        "allergens": [
+            {
+                "name": "milk"
+            }
+        ],
+        "cuisine": "polska"
+    },
+    {
+        "id": 3,
+        "name": "Ciastko z truskawkami",
+        "description": "Bogaty zbiór przepisów na ciasta z truskawkami. Wśród nich między innymi popularne ciasto kruche z truskawkami i kruszonką oraz wspaniałe brownie z truskawkami. Pyszny placek drożdżowy z truskawkami i ciasto jogurtowe z truskawkami i kruszonką. Serniki i tarty z truskawkami.",
+        "difficulty": "easy",
+        "time": "1:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "szklanka cukur",
+                "value": "1"
+            },
+            {
+                "name": "cukier waniliowy",
+                "value": "1"
+            },
+            {
+                "name": "szklanki oleju roślinnego lub roztopionego masła",
+                "value": "1/2"
+            },
+            {
+                "name": "szklanki (240 g) mąki pszennej",
+                "value": "1 1/2"
+            },
+            {
+                "name": "łyżeczka proszku do pieczenia",
+                "value": "1"
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            }
+        ],
+        "allergens": [
+            {
+                "name": "gluten"
+            }
+        ],
+        "cuisine": "niemiecka"
+    },
+    {
+        "id": 4,
+        "name": "Przepis na placki ziemniaczane 4",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 5,
+        "name": "Przepis na placki ziemniaczane 5",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 6,
+        "name": "Przepis na placki ziemniaczane 6",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 7,
+        "name": "Przepis na placki ziemniaczane 7",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 8,
+        "name": "Przepis na placki ziemniaczane 8",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 9,
+        "name": "Przepis na placki ziemniaczane 9",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 10,
+        "name": "Przepis na placki ziemniaczane 10",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 11,
+        "name": "Przepis na placki ziemniaczane 11",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 12,
+        "name": "Przepis na placki ziemniaczane 12",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 13,
+        "name": "Przepis na placki ziemniaczane 13",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 14,
+        "name": "Przepis na placki ziemniaczane 14",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 15,
+        "name": "Przepis na placki ziemniaczane 15",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 16,
+        "name": "Przepis na placki ziemniaczane 16",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 17,
+        "name": "Przepis na placki ziemniaczane 17",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 18,
+        "name": "Przepis na placki ziemniaczane 18",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 19,
+        "name": "Przepis na placki ziemniaczane 19",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 20,
+        "name": "Przepis na placki ziemniaczane 20",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 21,
+        "name": "Przepis na placki ziemniaczane 21",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 22,
+        "name": "Przepis na placki ziemniaczane 22",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 23,
+        "name": "Przepis na placki ziemniaczane 23",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 24,
+        "name": "Przepis na placki ziemniaczane 24",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 25,
+        "name": "Przepis na placki ziemniaczane 25",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 26,
+        "name": "Przepis na placki ziemniaczane 26",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 27,
+        "name": "Przepis na placki ziemniaczane 27",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 28,
+        "name": "Przepis na placki ziemniaczane 28",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 29,
+        "name": "Przepis na placki ziemniaczane 29",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 30,
+        "name": "Przepis na placki ziemniaczane 30",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "id": 31,
+        "name": "Przepis na placki ziemniaczane 31",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "a",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    }
+]
