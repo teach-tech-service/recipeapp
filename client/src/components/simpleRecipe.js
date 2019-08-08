@@ -106,7 +106,7 @@ const SimpleRecipe = props => {
     const data = recipesList.filter(item => {
         return Number(props.id) === item.id;
     });
-    console.log(props);
+    console.log(data);
     return (
         <div className={classes.container}>
             <div className={classes.recipeDescription}>
@@ -126,11 +126,19 @@ const SimpleRecipe = props => {
                                     {itemb.value === "" ? (
                                         <p>{itemb.name}</p>
                                     ) : (
+<<<<<<< HEAD
                                             <p>
                                                 {" "}
                                                 {itemb.name} - {itemb.value}
                                             </p>
                                         )}
+=======
+                                        <p>
+                                            {" "}
+                                            {itemb.name} - {itemb.value}
+                                        </p>
+                                    )}
+>>>>>>> 83bce3ac82b7b584fc0471d56fae3c3a705d9bf6
                                 </li>
                             );
                         })}

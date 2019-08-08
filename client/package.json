@@ -8,7 +8,10 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+<<<<<<< HEAD
     "react-google-charts": "^3.0.14",
+=======
+>>>>>>> 83bce3ac82b7b584fc0471d56fae3c3a705d9bf6
     "react-js-pagination": "^3.0.2",
     "react-material-ui-form-validator": "^2.0.9",
     "react-phone-input-mui": "^2.9.4",
