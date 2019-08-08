@@ -126,19 +126,11 @@ const SimpleRecipe = props => {
                                     {itemb.value === "" ? (
                                         <p>{itemb.name}</p>
                                     ) : (
-<<<<<<< HEAD
                                             <p>
                                                 {" "}
                                                 {itemb.name} - {itemb.value}
                                             </p>
                                         )}
-=======
-                                        <p>
-                                            {" "}
-                                            {itemb.name} - {itemb.value}
-                                        </p>
-                                    )}
->>>>>>> 83bce3ac82b7b584fc0471d56fae3c3a705d9bf6
                                 </li>
                             );
                         })}
