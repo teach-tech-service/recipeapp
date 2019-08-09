@@ -46,11 +46,21 @@ const useStyles = makeStyles({
             margin: "0"
         }
     },
+    name: {
+        padding: "0  30px",
+        minHeight: "200px",
+        "& p": {
+            margin: "0px",
+            initialLetter: "10px"
+        }
+    },
     nameDes: {
         color: "black",
         fontSize: "16px",
-        padding: "25px 7% 50px",
-        textTransform: "uppercase"
+        padding: "25px 0 0  0px",
+        margin: "0px",
+        textTransform: "uppercase",
+        textDecoration: "none"
     },
     upVote: {
         backgroundColor: "#ebebeb",
@@ -72,7 +82,7 @@ const Recipe = props => {
                     <div className={classes.properties}>
                         <div className={classes.upVote}>
                             <img src={upVoteIcon} alt="zdjecie" />
-                            <p>123</p>
+                            <p>{props.vote}</p>
                         </div>
                         <div>
                             <img
@@ -87,9 +97,10 @@ const Recipe = props => {
                         </div>
                     </div>
                     <div className={classes.name}>
-                        <Link to={`/${props.id}`}>
+                        <Link to={`/${props.name}`}>
                             <h1 className={classes.nameDes}>{props.name}</h1>
                         </Link>
+                        <p>{props.description}</p>
                     </div>
                 </div>
             </CardContent>

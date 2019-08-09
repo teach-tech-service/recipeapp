@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import recipesList from "./../data/recipes.json";
+import axios from "axios";
 import recipeImage from "./../recipeImage.jpg";
 import Step from "./Step";
 import { makeStyles } from "@material-ui/styles";
@@ -15,15 +16,22 @@ const useStyles = makeStyles({
         display: "grid",
         gridTemplateColumns: "30% 70%"
     },
-    recipeDescription: {},
-    infoName: { fontSize: "38px", margin: "5px 0 65px", padding: "0 25px" },
+    infoName: {
+        fontSize: "38px",
+        margin: "5px 0 65px",
+        padding: "0 25px",
+        color: "#f2cd22",
+        textDecoration: "none"
+    },
     infoDescription: {
         padding: "0 25px"
     },
     recipeImage: {
         height: "600px",
         backgroundImage: `url(${recipeImage})`,
-        backgroundPosition: "center"
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat"
     },
     recipeParameters: {
         backgroundColor: "#ffd71d",
@@ -101,15 +109,23 @@ const useStyles = makeStyles({
         }
     }
 });
-const SimpleRecipe = props => {
+const SimpleRecipe = ({ props, match }) => {
     const classes = useStyles();
-    const data = recipesList.filter(item => {
-        return Number(props.id) === item.id;
+    let data = [];
+    useEffect(() => {
+        axios
+            .get(`http://localhost:5000/api/search?term=ziemniaczane`)
+            .then(res => {
+                return { data: res.data };
+            })
+            .catch(error => {
+                console.log(error);
+            });
     });
-    console.log(data);
     return (
         <div className={classes.container}>
-            <div className={classes.recipeDescription}>
+            {data.length > 0 ? console.log(data[0]) : null}
+            {/* <div className={classes.recipeDescription}>
                 <div>
                     <h1 className={classes.infoName}>{data[0].name}</h1>
                     <p className={classes.infoDescription}>
@@ -119,21 +135,23 @@ const SimpleRecipe = props => {
                 <div className={classes.ingredients}>
                     <h1>Składniki</h1>
                     <ul>
-                        {data[0].ingredients.map(itemb => {
-                            return (
-                                <li key={itemb.name}>
-                                    {console.log(itemb.name)}
-                                    {itemb.value === "" ? (
-                                        <p>{itemb.name}</p>
-                                    ) : (
-                                        <p>
-                                            {" "}
-                                            {itemb.name} - {itemb.value}
-                                        </p>
-                                    )}
-                                </li>
-                            );
-                        })}
+                        {data.length > 0
+                            ? data[0].ingredients.map(itemb => {
+                                  return (
+                                      <li key={itemb.name}>
+                                          {console.log(itemb.name)}
+                                          {itemb.value === "" ? (
+                                              <p>{itemb.name}</p>
+                                          ) : (
+                                              <p>
+                                                  {" "}
+                                                  {itemb.name} - {itemb.value}
+                                              </p>
+                                          )}
+                                      </li>
+                                  );
+                              })
+                            : null}
                     </ul>
                 </div>
             </div>
@@ -188,7 +206,7 @@ const SimpleRecipe = props => {
                         })}
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };
