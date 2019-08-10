@@ -29,8 +29,8 @@ const recipeSchema = new Schema({
     required: true
   },
   time: {
-    type: Number,
-    default: 1,
+    type: String,
+    default: "1:00",
     required: true
   },
   heroImage: {

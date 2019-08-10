@@ -109,12 +109,12 @@ const useStyles = makeStyles({
         }
     }
 });
-const SimpleRecipe = ({ props, match }) => {
+function SimpleRecipe(props, { match }) {
     const classes = useStyles();
     let data = [];
     useEffect(() => {
         axios
-            .get(`http://localhost:5000/api/search?term=ziemniaczane`)
+            .get(`http://localhost:5000/api/search?term=pierogi`)
             .then(res => {
                 return { data: res.data };
             })
@@ -124,7 +124,7 @@ const SimpleRecipe = ({ props, match }) => {
     });
     return (
         <div className={classes.container}>
-            {data.length > 0 ? console.log(data[0]) : null}
+            {data.length > 0 ? console.log(data[0]) : console.log(data)}
             {/* <div className={classes.recipeDescription}>
                 <div>
                     <h1 className={classes.infoName}>{data[0].name}</h1>
@@ -135,23 +135,21 @@ const SimpleRecipe = ({ props, match }) => {
                 <div className={classes.ingredients}>
                     <h1>Składniki</h1>
                     <ul>
-                        {data.length > 0
-                            ? data[0].ingredients.map(itemb => {
-                                  return (
-                                      <li key={itemb.name}>
-                                          {console.log(itemb.name)}
-                                          {itemb.value === "" ? (
-                                              <p>{itemb.name}</p>
-                                          ) : (
-                                              <p>
-                                                  {" "}
-                                                  {itemb.name} - {itemb.value}
-                                              </p>
-                                          )}
-                                      </li>
-                                  );
-                              })
-                            : null}
+                        {data[0].ingredients.map(itemb => {
+                            return (
+                                <li key={itemb.name}>
+                                    {console.log(itemb.name)}
+                                    {itemb.value === "" ? (
+                                        <p>{itemb.name}</p>
+                                    ) : (
+                                            <p>
+                                                {" "}
+                                                {itemb.name} - {itemb.value}
+                                            </p>
+                                        )}
+                                </li>
+                            );
+                        })}
                     </ul>
                 </div>
             </div>
@@ -209,6 +207,6 @@ const SimpleRecipe = ({ props, match }) => {
             </div> */}
         </div>
     );
-};
+}
 
 export default SimpleRecipe;

@@ -63,7 +63,8 @@ class Index extends React.Component {
         activePage: 1,
         data: [],
         difficulty: "",
-        name: ""
+        name: "",
+        cuisine: ""
     };
 
     componentDidMount() {
@@ -88,7 +89,9 @@ class Index extends React.Component {
                 .get(
                     `http://localhost:5000/api/search?term=${
                         this.state.name
-                    }&difficulty=${this.state.difficulty}&page=${pageNumber}`
+                    }&difficulty=${this.state.difficulty}&cuisine=${
+                        this.state.cuisine
+                    }&page=${pageNumber}`
                 )
                 .then(res => {
                     this.setState({
@@ -113,7 +116,7 @@ class Index extends React.Component {
                     e.target[0].value
                 }&difficulty=${this.state.difficulty}&page=${
                     this.state.activePage
-                }`
+                }&cuisine=${this.state.cuisine}`
             )
             .then(res => {
                 this.setState({
@@ -140,7 +143,7 @@ class Index extends React.Component {
                         this.state.name
                     }&difficulty=${e.target.value}&page=${
                         this.state.activePage
-                    }`
+                    }&cuisine=${this.state.cuisine}`
                 )
                 .then(res => {
                     this.setState({
@@ -155,6 +158,65 @@ class Index extends React.Component {
                 difficulty: e.target.value
             });
         }
+    };
+
+    options = e => {
+        this.setState(
+            {
+                cuisine: e.target.value
+            },
+            () => {
+                axios
+                    .get(
+                        `http://localhost:5000/api/search?term=${
+                            this.state.name
+                        }&difficulty=${this.state.difficulty}&page=${
+                            this.state.activePage
+                        }&cuisine=${this.state.cuisine}`
+                    )
+                    .then(res => {
+                        this.setState({
+                            data: res.data.filteredRecipes,
+                            recipesNumber: res.data.numberOfRows
+                        });
+                    })
+                    .catch(error => {
+                        console.log(error);
+                    });
+            }
+        );
+    };
+
+    resetfilters = e => {
+        e.preventDefault();
+        this.setState(
+            {
+                difficulty: "",
+                name: "",
+                cuisine: "",
+                recipesNumber: null,
+                activePage: 1
+            },
+            () => {
+                axios
+                    .get(
+                        `http://localhost:5000/api/search?term=${
+                            this.state.name
+                        }&difficulty=${this.state.difficulty}&page=${
+                            this.state.activePage
+                        }&cuisine=${this.state.cuisine}`
+                    )
+                    .then(res => {
+                        this.setState({
+                            data: res.data.filteredRecipes,
+                            recipesNumber: res.data.numberOfRows
+                        });
+                    })
+                    .catch(error => {
+                        console.log(error);
+                    });
+            }
+        );
     };
 
     render() {
@@ -203,24 +265,16 @@ class Index extends React.Component {
                                 Trudny
                             </label>
                         </form>
-                        <h2>Czas</h2>
-                        <form className={classes.formFilter}>
-                            <label>
-                                <input type="checkbox" name="<30" value="<30" />
-                                do 30 minut
-                            </label>
-                            <label>
-                                <input
-                                    type="checkbox"
-                                    name="30-60"
-                                    value="30-60"
-                                />
-                                30-60 minut
-                            </label>
-                            <label>
-                                <input type="checkbox" name=">60" value=">60" />
-                                powyżej 60 minut
-                            </label>
+                        <h2>Wybór kuchni</h2>
+                        <form>
+                            <select onChange={this.options}>
+                                <option value="" />
+                                <option value="polska">polska</option>
+                                <option value="rosyjska">rosyjska</option>
+                            </select>
+                            <button value="wyslij" onClick={this.resetfilters}>
+                                Wyczyść filtry
+                            </button>
                         </form>
                     </div>
                     <div className={classes.recipes}>
