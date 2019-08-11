@@ -5,19 +5,20 @@ import Stats from "./pages/stats";
 import addRecipe from "./pages/addRecipe";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Navigation from "./components/Navigation";
 
 export default class App extends React.Component {
-    render() {
-        return (
-            <Router>
-                <Switch>
-                    <Route exact path={"/"} component={Index} />
-                    <Route path={"/add/"} component={addRecipe} />
-                    <Route path={"/stats/"} component={Stats} />
-                    <Route path={"/:id"} component={recipePage} />
-
-                </Switch>
-            </Router>
-        );
-    }
+  render() {
+    return (
+      <Router>
+        <Navigation />
+        <Switch>
+          <Route exact path={"/"} component={Index} />
+          <Route path={"/add/"} component={addRecipe} />
+          <Route path={"/stats/"} component={Stats} />
+          <Route path={"/:id"} component={recipePage} />
+        </Switch>
+      </Router>
+    );
+  }
 }
