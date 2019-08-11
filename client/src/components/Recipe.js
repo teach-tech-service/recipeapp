@@ -97,7 +97,7 @@ const Recipe = props => {
                         </div>
                     </div>
                     <div className={classes.name}>
-                        <Link to={`/${props.name}`}>
+                        <Link to={`/recipe/${props.id}`}>
                             <h1 className={classes.nameDes}>{props.name}</h1>
                         </Link>
                         <p>{props.description}</p>

@@ -174,21 +174,21 @@ class SimpleRecipe extends React.Component {
                         <ul>
                             {this.state.data.length > 0
                                 ? this.state.ingredients.map(itemb => {
-                                      return (
-                                          <li key={itemb.name}>
-                                              {console.log(itemb.name)}
-                                              {itemb.value === "" ? (
-                                                  <p>{itemb.name}</p>
-                                              ) : (
-                                                  <p>
-                                                      {" "}
-                                                      {itemb.name} -{" "}
-                                                      {itemb.value}
-                                                  </p>
-                                              )}
-                                          </li>
-                                      );
-                                  })
+                                    return (
+                                        <li key={itemb.name}>
+                                            {console.log(itemb.name)}
+                                            {itemb.value === "" ? (
+                                                <p>{itemb.name}</p>
+                                            ) : (
+                                                    <p>
+                                                        {" "}
+                                                        {itemb.name} -{" "}
+                                                        {itemb.value}
+                                                    </p>
+                                                )}
+                                        </li>
+                                    );
+                                })
                                 : null}
                         </ul>
                     </div>
@@ -237,16 +237,16 @@ class SimpleRecipe extends React.Component {
                         <div className={classes.steps}>
                             {this.state.data.length > 0
                                 ? this.state.steps.map(step => {
-                                      return (
-                                          <div className={classes.step}>
-                                              <Step
-                                                  key={step.number}
-                                                  number={step.number}
-                                                  description={step.description}
-                                              />
-                                          </div>
-                                      );
-                                  })
+                                    return (
+                                        <div className={classes.step}>
+                                            <Step
+                                                key={step.number}
+                                                number={step.number}
+                                                description={step.description}
+                                            />
+                                        </div>
+                                    );
+                                })
                                 : null}
                         </div>
                     </div>
