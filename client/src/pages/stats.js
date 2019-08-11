@@ -6,6 +6,7 @@ import Paper from '@material-ui/core/Paper';
 import Slider from '@material-ui/core/Slider';
 import Typography from '@material-ui/core/Typography';
 import Tooltip from '@material-ui/core/Tooltip';
+import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -141,17 +142,20 @@ export default class Stats extends React.Component {
 
     render() {
         return (
-            <React.Fragment>
-                <div style={{ display: 'flex', maxWidth: 900 }}>
+            <Grid xs={12} container
+                direction="column"
+                justify="center"
+                alignItems="center">
+                <Grid item xs={12}>
                     <Chart
-                        width={300}
-                        height={300}
+                        width={800}
+                        height={800}
                         chartType="ColumnChart"
                         loader={<div>Wczytywanie...</div>}
                         data={this.state.difficulty}
                         options={{
                             title: 'Wskaźnik trudności przepisów',
-                            chartArea: { width: '40%' },
+                            chartArea: { width: '80%' },
                             hAxis: {
                                 title: 'Rodzaj',
                                 minValue: 0,
@@ -162,15 +166,17 @@ export default class Stats extends React.Component {
                         }}
                         legendToggle
                     />
-                    <Chart
-                        width={400}
-                        height={300}
+                </Grid>
+                <Grid item xs={12}>
+                <Chart
+                        width={800}
+                        height={800}
                         chartType="ColumnChart"
                         loader={<div>Wczytywanie...</div>}
                         data={this.state.cuisines}
                         options={{
                             title: 'Rodzaje przepisów',
-                            chartArea: { width: '40%' },
+                            chartArea: { width: '80%' },
                             hAxis: {
                                 title: 'Rodzaj',
                                 minValue: 0,
@@ -181,18 +187,17 @@ export default class Stats extends React.Component {
                         }}
                         legendToggle
                     />
-
-                </div>
-
+                </Grid>
+                <Grid item xs={12}>
                 <Chart
-                    width={400}
-                    height={300}
+                    width={800}
+                    height={800}
                     chartType="ColumnChart"
                     loader={<div>Wczytywanie...</div>}
                     data={this.state.numberOfRecipes}
                     options={{
-                        title: 'Wskaźnik trudności przepisów',
-                        chartArea: { width: '40%' },
+                        title: 'Ilość dodanych przepisów w ciągu ostatnich 7 dni',
+                        chartArea: { width: '80%' },
                         hAxis: {
                             title: 'Rodzaj',
                             minValue: 0,
@@ -203,7 +208,8 @@ export default class Stats extends React.Component {
                     }}
                     legendToggle
                 />
-            </React.Fragment>
+                </Grid>
+            </Grid>
         );
     }
 }
