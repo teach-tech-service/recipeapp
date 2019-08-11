@@ -2,6 +2,7 @@ import React from "react";
 import Recipe from "./../components/Recipe";
 import Pagination from "react-js-pagination";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 import { withStyles } from "@material-ui/styles";
 const styles = style => ({
@@ -64,7 +65,10 @@ class Index extends React.Component {
         data: [],
         difficulty: "",
         name: "",
-        cuisine: ""
+        cuisine: "",
+        cuisines: [],
+        allergen: "",
+        allergens: []
     };
 
     componentDidMount() {
@@ -77,6 +81,18 @@ class Index extends React.Component {
                     data: res.data.recipes,
                     recipesNumber: res.data.numberOfRecipes
                 });
+                return axios
+                    .get(`http://localhost:5000/api/recipe/info`)
+                    .then(res => {
+                        this.setState({
+                            cuisines: res.data.cuisine,
+                            allergens: res.data.allergens
+                        });
+                        console.log(res.data);
+                    })
+                    .catch(error => {
+                        console.log(error);
+                    });
             })
             .catch(error => {
                 console.log(error);
@@ -91,7 +107,7 @@ class Index extends React.Component {
                         this.state.name
                     }&difficulty=${this.state.difficulty}&cuisine=${
                         this.state.cuisine
-                    }&page=${pageNumber}`
+                    }&allergens=${this.state.allergen}&page=${pageNumber}`
                 )
                 .then(res => {
                     this.setState({
@@ -116,7 +132,9 @@ class Index extends React.Component {
                     e.target[0].value
                 }&difficulty=${this.state.difficulty}&page=${
                     this.state.activePage
-                }&cuisine=${this.state.cuisine}`
+                }&cuisine=${this.state.cuisine}&allergens=${
+                    this.state.allergen
+                }`
             )
             .then(res => {
                 this.setState({
@@ -143,7 +161,9 @@ class Index extends React.Component {
                         this.state.name
                     }&difficulty=${e.target.value}&page=${
                         this.state.activePage
-                    }&cuisine=${this.state.cuisine}`
+                    }&cuisine=${this.state.cuisine}&allergens=${
+                        this.state.allergen
+                    }`
                 )
                 .then(res => {
                     this.setState({
@@ -160,7 +180,7 @@ class Index extends React.Component {
         }
     };
 
-    options = e => {
+    optionsCuisine = e => {
         this.setState(
             {
                 cuisine: e.target.value
@@ -172,7 +192,38 @@ class Index extends React.Component {
                             this.state.name
                         }&difficulty=${this.state.difficulty}&page=${
                             this.state.activePage
-                        }&cuisine=${this.state.cuisine}`
+                        }&cuisine=${this.state.cuisine}&allergens=${
+                            this.state.allergen
+                        }`
+                    )
+                    .then(res => {
+                        this.setState({
+                            data: res.data.filteredRecipes,
+                            recipesNumber: res.data.numberOfRows
+                        });
+                    })
+                    .catch(error => {
+                        console.log(error);
+                    });
+            }
+        );
+    };
+
+    optionsAllergen = e => {
+        this.setState(
+            {
+                allergen: e.target.value
+            },
+            () => {
+                axios
+                    .get(
+                        `http://localhost:5000/api/search?term=${
+                            this.state.name
+                        }&difficulty=${this.state.difficulty}&page=${
+                            this.state.activePage
+                        }&cuisine=${this.state.cuisine}&allergens=${
+                            this.state.allergen
+                        }`
                     )
                     .then(res => {
                         this.setState({
@@ -195,7 +246,8 @@ class Index extends React.Component {
                 name: "",
                 cuisine: "",
                 recipesNumber: null,
-                activePage: 1
+                activePage: 1,
+                allergen: ""
             },
             () => {
                 axios
@@ -204,7 +256,9 @@ class Index extends React.Component {
                             this.state.name
                         }&difficulty=${this.state.difficulty}&page=${
                             this.state.activePage
-                        }&cuisine=${this.state.cuisine}`
+                        }&cuisine=${this.state.cuisine}&allergens=${
+                            this.state.allergen
+                        }`
                     )
                     .then(res => {
                         this.setState({
@@ -225,6 +279,9 @@ class Index extends React.Component {
 
         return (
             <div className={classes.container}>
+                <h1>
+                    <Link to="/add/">dodaj przepis</Link>
+                </h1>
                 <h1>Wyszukiwarka przepisów</h1>
                 <form onSubmit={this.search}>
                     <input type="text" placeholder="wpisz nazwe przepisu" />
@@ -267,10 +324,29 @@ class Index extends React.Component {
                         </form>
                         <h2>Wybór kuchni</h2>
                         <form>
-                            <select onChange={this.options}>
+                            <select onChange={this.optionsCuisine}>
                                 <option value="" />
-                                <option value="polska">polska</option>
-                                <option value="rosyjska">rosyjska</option>
+                                {this.state.cuisines.length > 0
+                                    ? this.state.cuisines.map(item => {
+                                          return (
+                                              <option value={item.name}>
+                                                  {item.name}
+                                              </option>
+                                          );
+                                      })
+                                    : null}
+                            </select>
+                            <select onChange={this.optionsAllergen}>
+                                <option value="" />
+                                {this.state.allergens.length > 0
+                                    ? this.state.allergens.map(item => {
+                                          return (
+                                              <option value={item.name}>
+                                                  {item.name}
+                                              </option>
+                                          );
+                                      })
+                                    : null}
                             </select>
                             <button value="wyslij" onClick={this.resetfilters}>
                                 Wyczyść filtry

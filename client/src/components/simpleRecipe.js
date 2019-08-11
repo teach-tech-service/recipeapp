@@ -7,7 +7,8 @@ import { makeStyles } from "@material-ui/styles";
 import difficultyIcon from "./../icons/difficulty-icon.png";
 import timeIcon from "./../icons/time-icon.png";
 import upVoteIcon from "./../icons/upvote-icon.png";
-const useStyles = makeStyles({
+import { withStyles } from "@material-ui/styles";
+const styles = style => ({
     imgFluid: {
         maxWidth: "100%",
         height: "auto"
@@ -109,104 +110,150 @@ const useStyles = makeStyles({
         }
     }
 });
-function SimpleRecipe(props, { match }) {
-    const classes = useStyles();
-    let data = [];
-    useEffect(() => {
+class SimpleRecipe extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            data: [],
+            time: "",
+            name: "",
+            description: "",
+            ingredients: [],
+            steps: [],
+            difficulty: "",
+            cuisines: []
+        };
+    }
+
+    componentDidMount() {
         axios
-            .get(`http://localhost:5000/api/search?term=pierogi`)
+            .get(`http://localhost:5000/api/search?term=${this.props.name}`)
             .then(res => {
-                return { data: res.data };
+                this.setState({
+                    data: res.data.filteredRecipes,
+                    time: res.data.filteredRecipes[0].time,
+                    description: res.data.filteredRecipes[0].description,
+                    name: res.data.filteredRecipes[0].name,
+                    ingredients: res.data.filteredRecipes[0].ingredients,
+                    steps: res.data.filteredRecipes[0].steps,
+                    difficulty: res.data.filteredRecipes[0].difficulty
+                });
             })
             .catch(error => {
                 console.log(error);
             });
-    });
-    return (
-        <div className={classes.container}>
-            {data.length > 0 ? console.log(data[0]) : console.log(data)}
-            {/* <div className={classes.recipeDescription}>
-                <div>
-                    <h1 className={classes.infoName}>{data[0].name}</h1>
-                    <p className={classes.infoDescription}>
-                        {data[0].description}
-                    </p>
+    }
+
+    setDifficulty = param => {
+        switch (param) {
+            case "easy":
+                return " łatwy";
+            case "medium":
+                return " średni";
+            case "hard":
+                return " trudny";
+        }
+    };
+
+    render() {
+        const { classes } = this.props;
+        return (
+            <div className={classes.container}>
+                {this.state.data.length > 0
+                    ? console.log(this.state.data[0])
+                    : console.log(this.state.data)}
+                <div className={classes.recipeDescription}>
+                    <div>
+                        <h1 className={classes.infoName}>{this.state.name}</h1>
+                        <p className={classes.infoDescription}>
+                            {this.state.description}
+                        </p>
+                    </div>
+                    <div className={classes.ingredients}>
+                        <h1>Składniki</h1>
+                        <ul>
+                            {this.state.data.length > 0
+                                ? this.state.ingredients.map(itemb => {
+                                      return (
+                                          <li key={itemb.name}>
+                                              {console.log(itemb.name)}
+                                              {itemb.value === "" ? (
+                                                  <p>{itemb.name}</p>
+                                              ) : (
+                                                  <p>
+                                                      {" "}
+                                                      {itemb.name} -{" "}
+                                                      {itemb.value}
+                                                  </p>
+                                              )}
+                                          </li>
+                                      );
+                                  })
+                                : null}
+                        </ul>
+                    </div>
                 </div>
-                <div className={classes.ingredients}>
-                    <h1>Składniki</h1>
-                    <ul>
-                        {data[0].ingredients.map(itemb => {
-                            return (
-                                <li key={itemb.name}>
-                                    {console.log(itemb.name)}
-                                    {itemb.value === "" ? (
-                                        <p>{itemb.name}</p>
-                                    ) : (
-                                            <p>
-                                                {" "}
-                                                {itemb.name} - {itemb.value}
-                                            </p>
+                <div className={classes.recipeInfo}>
+                    <div className={classes.recipeImage} />
+                    <div className={classes.recipeParameters}>
+                        <div className={classes.parameters}>
+                            <div className={classes.parameter}>
+                                <h1>{this.state.time}</h1>
+                                <div className={classes.parameterWrapper}>
+                                    <img
+                                        src={timeIcon}
+                                        alt="timeIcon"
+                                        className={classes.imgFluid}
+                                    />
+                                    <p>Czas przygotowania</p>
+                                </div>
+                            </div>
+                            <div className={classes.parameter}>
+                                <img
+                                    src={difficultyIcon}
+                                    alt="timeIcon"
+                                    className={classes.difficultyIcon}
+                                />
+                                <div className={classes.parameterWrapper}>
+                                    <p>
+                                        <b>Poziom: </b>
+                                    </p>
+                                    <span>
+                                        {this.setDifficulty(
+                                            this.state.difficulty
                                         )}
-                                </li>
-                            );
-                        })}
-                    </ul>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={classes.actions}>
+                            <div className={classes.action}>
+                                <img src={upVoteIcon} alt="upvoteicon" />
+                                <p>Dodaj do ulubionych</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={classes.stepsInfo}>
+                        <div className={classes.steps}>
+                            {this.state.data.length > 0
+                                ? this.state.steps.map(step => {
+                                      return (
+                                          <div className={classes.step}>
+                                              <Step
+                                                  key={step.number}
+                                                  number={step.number}
+                                                  description={step.description}
+                                              />
+                                          </div>
+                                      );
+                                  })
+                                : null}
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div className={classes.recipeInfo}>
-                <div className={classes.recipeImage} />
-                <div className={classes.recipeParameters}>
-                    <div className={classes.parameters}>
-                        <div className={classes.parameter}>
-                            <h1>{data[0].time}</h1>
-                            <div className={classes.parameterWrapper}>
-                                <img
-                                    src={timeIcon}
-                                    alt="timeIcon"
-                                    className={classes.imgFluid}
-                                />
-                                <p>Czas przygotowania</p>
-                            </div>
-                        </div>
-                        <div className={classes.parameter}>
-                            <img
-                                src={difficultyIcon}
-                                alt="timeIcon"
-                                className={classes.difficultyIcon}
-                            />
-                            <div className={classes.parameterWrapper}>
-                                <p>
-                                    <b>Poziom: </b>
-                                </p>
-                                <span> {data[0].difficulty}</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className={classes.actions}>
-                        <div className={classes.action}>
-                            <img src={upVoteIcon} alt="upvoteicon" />
-                            <p>Dodaj do ulubionych</p>
-                        </div>
-                    </div>
-                </div>
-                <div className={classes.stepsInfo}>
-                    <div className={classes.steps}>
-                        {data[0].steps.map(step => {
-                            return (
-                                <div className={classes.step}>
-                                    <Step
-                                        key={step.number}
-                                        number={step.number}
-                                        description={step.description}
-                                    />
-                                </div>
-                            );
-                        })}
-                    </div>
-                </div>
-            </div> */}
-        </div>
-    );
+        );
+    }
 }
 
-export default SimpleRecipe;
+export default withStyles(styles)(SimpleRecipe);
