@@ -150,9 +150,10 @@ class addRecipe extends React.Component {
             allergens: this.state.allergens,
             cuisine: this.state.cuisine
         };
+        console.log(recipe);
 
         axios
-            .post("localhost:5000/api/recipe", { recipe })
+            .post("http://localhost:5000/api/recipe", { recipe })
             .then(res => {
                 console.log(res);
                 console.log(res.data);
