@@ -30,7 +30,7 @@ const recipeSchema = new Schema({
   },
   heroImage: {
     type: String,
-    default: "",
+    default: "1.jpeg",
     required: true
   },
   ingredients: [ingredientSchema],
