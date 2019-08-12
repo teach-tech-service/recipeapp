@@ -2,7 +2,6 @@ import React from "react";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import { makeStyles } from "@material-ui/styles";
-import image from "./../recipeImage.jpg";
 import difficultyIcon from "./../icons/difficulty-icon.png";
 import timeIcon from "./../icons/time-icon.png";
 import upVoteIcon from "./../icons/upvote-icon.png";
@@ -46,16 +45,21 @@ const useStyles = makeStyles({
             fontSize: "22px",
             padding: "12px 0 4px"
         },
-        "& p": {
-            margin: "0"
-        }
-    },
-    name: {
-        padding: "0  30px",
-        minHeight: "200px",
-        "& p": {
-            margin: "0px",
-            initialLetter: "10px"
+        upVote: {
+            backgroundColor: "#ebebeb",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            width: "100%"
+        },
+        time: {
+            "& p": {
+                padding: "0 0 0 5px"
+            }
+        },
+        link: {
+            textDecoration: "none"
         }
     },
     nameDes: {
@@ -73,14 +77,6 @@ const useStyles = makeStyles({
         alignItems: "center",
         justifyContent: "center",
         width: "100%"
-    },
-    time: {
-        "& p": {
-            padding: "0 0 0 5px"
-        }
-    },
-    link: {
-        textDecoration: "none"
     }
 });
 

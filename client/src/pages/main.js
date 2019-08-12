@@ -473,6 +473,7 @@ class Index extends React.Component {
                     pageRangeDisplayed={5}
                     onChange={this.handlePageChange}
                 />
+                ); })}
             </div>
         );
     }

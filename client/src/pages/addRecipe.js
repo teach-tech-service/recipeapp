@@ -111,25 +111,6 @@ class addRecipe extends React.Component {
         });
     };
 
-    ingredientsNumber = e => {
-        e.preventDefault();
-        this.setState({
-            ingredientsHelper: [...this.state.ingredientsHelper, ""]
-        });
-    };
-    stepsNumber = e => {
-        e.preventDefault();
-        this.setState({
-            stepsHelper: [...this.state.stepsHelper, ""]
-        });
-    };
-    allergensNumber = e => {
-        e.preventDefault();
-        this.setState({
-            allergensHelper: [...this.state.allergensHelper, ""]
-        });
-    };
-
     setIngredients = e => {
         e.preventDefault();
         let item = [];

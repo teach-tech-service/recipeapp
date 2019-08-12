@@ -4,14 +4,10 @@ const UserSchema = new Schema({
   name: {
     type: String,
     required: true,
-    minlength: 2,
-    maxlength: 30
   },
   lastname: {
     type: String,
     required: true,
-    minlength: 2,
-    maxlength: 30
   },
   email: {
     type: String,
@@ -33,9 +29,7 @@ const UserSchema = new Schema({
   },
   country: {
     type: String,
-    required: true,
-    minlength: 2,
-    maxlength: 40
+    required: true
   },
   createdAt: {
     type: Date,

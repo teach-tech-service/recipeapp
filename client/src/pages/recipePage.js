@@ -1,5 +1,5 @@
 import React from "react";
-import SimpleRecipe from "../components/SimpleRecipe";
+import SimpleRecipe from "../components/simpleRecipe";
 import recipesList from "./../data/recipes.json";
 import { Link } from "react-router-dom";
 

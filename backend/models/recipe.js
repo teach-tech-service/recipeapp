@@ -7,15 +7,10 @@ import allergenSchema from "./allergens";
 const recipeSchema = new Schema({
   name: {
     type: String,
-    required: true,
-    minlength: 2,
-    maxlength: 100,
-    unique: true
+    required: true
   },
   description: {
-    type: String,
-    minlength: 10,
-    maxlength: 800
+    type: String
   },
   upvotes: {
     type: Number,
@@ -35,7 +30,7 @@ const recipeSchema = new Schema({
   },
   heroImage: {
     type: String,
-    default: "",
+    default: "1.jpeg",
     required: true
   },
   ingredients: [ingredientSchema],
@@ -48,9 +43,7 @@ const recipeSchema = new Schema({
   },
   cuisine: {
     type: String,
-    required: true,
-    min: 2,
-    max: 50
+    required: true
   },
   createdAt: {
     type: Date,
