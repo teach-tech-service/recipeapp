@@ -155,6 +155,23 @@ class addRecipe extends React.Component {
         });
     };
 
+    ingredientsNumber = e => {
+        this.setState({
+            ingredientsHelper: [...this.state.ingredientsHelper, ""]
+        });
+    };
+
+    stepsNumber = e => {
+        this.setState({
+            stepsHelper: [...this.state.stepsHelper, ""]
+        });
+    };
+    allergensNumber = e => {
+        this.setState({
+            allergensHelper: [...this.state.allergensHelper, ""]
+        });
+    };
+
     sendRecipe = () => {
         let recipe = {
             name: this.state.name,
@@ -299,7 +316,10 @@ class addRecipe extends React.Component {
                             onSubmit={this.setIngredients}
                             className={classes.form}
                         >
-                            <button onClick={this.ingredientsNumber}>
+                            <button
+                                onClick={this.ingredientsNumber}
+                                name="ingredientsHelper"
+                            >
                                 Dodaj pole
                             </button>
                             {this.state.ingredientsHelper.length > 0
@@ -332,7 +352,10 @@ class addRecipe extends React.Component {
                     <div className={classes.listItem}>
                         <form onSubmit={this.setSteps} className={classes.form}>
                             <h1>Lista kroków</h1>
-                            <button onClick={this.stepsNumber}>
+                            <button
+                                onClick={this.stepsNumber}
+                                name="stepsHelper"
+                            >
                                 Dodaj pole
                             </button>
                             {this.state.stepsHelper.length > 0
@@ -356,7 +379,10 @@ class addRecipe extends React.Component {
                             className={classes.form}
                         >
                             <h1>Lista alergenów</h1>
-                            <button onClick={this.allergensNumber}>
+                            <button
+                                onClick={this.allergensNumber}
+                                name="allergensHelper"
+                            >
                                 Dodaj pole
                             </button>
                             {this.state.allergensHelper.length > 0
