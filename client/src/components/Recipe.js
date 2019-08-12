@@ -2,6 +2,7 @@ import React from "react";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import { makeStyles } from "@material-ui/styles";
+import image from "./../recipeImage.jpg";
 import difficultyIcon from "./../icons/difficulty-icon.png";
 import timeIcon from "./../icons/time-icon.png";
 import upVoteIcon from "./../icons/upvote-icon.png";
