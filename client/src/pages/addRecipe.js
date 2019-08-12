@@ -117,6 +117,9 @@ class addRecipe extends React.Component {
     descIng: "",
     step: "",
     allergen: "",
+    errorAllergen: "",
+    errorStep: "",
+    errorIng: "",
     ingredientsHelper: [],
     steps: [],
     stepsHelper: [],
@@ -140,125 +143,131 @@ class addRecipe extends React.Component {
     });
   };
 
-  ingredientsNumber = e => {
-    e.preventDefault();
-    this.setState({
-      ...this.state,
-      ingredientsHelper: [...this.state.ingredientsHelper, ""]
-    });
-  };
-  stepsNumber = e => {
-    e.preventDefault();
-    this.setState({
-      ...this.state,
-      stepsHelper: [...this.state.stepsHelper, ""]
-    });
-  };
-  allergensNumber = e => {
-    e.preventDefault();
-    this.setState({
-      ...this.state,
-      allergensHelper: [...this.state.allergensHelper, ""]
-    });
-  };
-
   setIngredients = e => {
     e.preventDefault();
-    var items = this.state.ingredients;
 
-    items.push({
-      name: this.state.nameIng,
-      value: this.state.descIng
-    });
-    console.log(e.target.value);
-    this.setState({
-      ...this.state,
-      ingredients: items,
-      nameIng: "",
-      descIng: "",
-    });
+    var items = this.state.ingredients;
+    if (this.state.nameIng === "" || this.state.descIng === "") {
+      this.setState({
+        ...this.state,
+        ingredients: items,
+        nameIng: "",
+        descIng: "",
+        errorIng: "Te pola nie mogą być puste"
+      });
+    } else {
+      items.push({
+        name: this.state.nameIng,
+        value: this.state.descIng
+      });
+      console.log(e.target.value);
+      this.setState({
+        ...this.state,
+        ingredients: items,
+        nameIng: "",
+        descIng: "",
+        errorIng: ""
+      });
+    }
+
     console.log(this.state.ingredients)
   };
   setSteps = e => {
     e.preventDefault();
     var items = this.state.steps;
-    items.push({
-      number: this.state.steps.length + 1,
-      description: this.state.step
-    });
+    if (this.state.step !== "") {
+      items.push({
+        number: this.state.steps.length + 1,
+        description: this.state.step
+      });
 
-    console.log(items);
-    this.setState({
-      ...this.state,
-      steps: items,
-      step: ""
-    });
+      console.log(items);
+      this.setState({
+        ...this.state,
+        steps: items,
+        step: ""
+      });
+    } else {
+      this.setState({
+        ...this.state,
+        steps: items,
+        step: "",
+        errorStep: "To pole nie może być puste"
+      });
+    }
+
   };
 
   setAllergens = e => {
     e.preventDefault();
     var item = this.state.allergens;
-    item.push({
-      number: this.state.allergens.length + 1,
-      name: this.state.allergen
-    });
-
-    console.log(item);
-    this.setState({
-      ...this.state,
-      allergens: item,
-      allergen: ""
-    });
+    if (this.state.allergen !== "") {
+      item.push({
+        number: this.state.allergens.length + 1,
+        name: this.state.allergen
+      });
+      console.log(item);
+      this.setState({
+        ...this.state,
+        allergens: item,
+        allergen: "",
+        errorAllergen: ""
+      });
+    } else {
+      this.setState({
+        ...this.state,
+        allergens: item,
+        allergen: "",
+        errorAllergen: "To pole nie może być puste"
+      });
+    }
   };
 
-  removeIngredients = (e, name) =>{
+  removeItems = (e, name) => {
     console.log(e, name)
-    if(name === "ingredients"){
+    if (name === "ingredients") {
       let items = this.state.ingredients.filter((item, key) => {
         if (key !== e) {
           return item
         }
       })
       console.log(items)
-      // for(let i =0; i< items.length; i++){
-      //   items[i].
-      // }
+
       this.setState({
         ...this.state,
         ingredients: items,
       })
-    }else if(name === "steps"){
+    } else if (name === "steps") {
       let items = this.state.steps.filter((item, key) => {
         if (key !== e) {
           return item
         }
       })
       console.log(items)
-      for(let i =0; i< items.length; i++){
-        items[i].number = i+1
+      for (let i = 0; i < items.length; i++) {
+        items[i].number = i + 1
       }
       this.setState({
         ...this.state,
         steps: items,
       })
-    }else if(name === "allergen"){
+    } else if (name === "allergen") {
       let items = this.state.allergens.filter((item, key) => {
         if (key !== e) {
           return item
         }
       })
       console.log(items)
-      for(let i =0; i< items.length; i++){
-        items[i].number = i+1
+      for (let i = 0; i < items.length; i++) {
+        items[i].number = i + 1
       }
       this.setState({
         ...this.state,
         allergens: items,
       })
     }
-   
+
   }
-  
 
   sendRecipe = () => {
     let recipe = {
@@ -435,7 +444,7 @@ class addRecipe extends React.Component {
                   </Grid>
                 </Grid>
                 <button value="zatwierdź" onClick={this.setIngredients}>zatwierdź</button>
-
+                {this.state.errorIng !== "" ? <p>{this.state.errorIng}</p> : null}
               </div>
               {this.state.ingredients.length > 0 ?
                 this.state.ingredients.map((row, key) => (
@@ -443,7 +452,7 @@ class addRecipe extends React.Component {
                     <h4>{row.name}</h4>
                     <p>{row.value}</p>
                     <Button color="primary" style={{ color: "#000000" }} className={classes.button}
-                      onClick={() => this.removeIngredients(key, "ingredients")}>
+                      onClick={() => this.removeItems(key, "ingredients")}>
                       USUŃ
                   </Button>
                   </div>
@@ -476,6 +485,7 @@ class addRecipe extends React.Component {
                   </Grid>
                 </Grid>
                 <button value="zatwierdź" onClick={this.setSteps}>zatwierdź</button>
+                {this.state.errorStep !== "" ? <p>{this.state.errorStep}</p> : null}
               </div>
               {this.state.steps.length > 0 ?
                 this.state.steps.map((row, key) => (
@@ -483,7 +493,7 @@ class addRecipe extends React.Component {
                     <h4>Krok {key + 1}</h4>
                     <p>{row.description}</p>
                     <Button color="primary" style={{ color: "#000000" }} className={classes.button}
-                      onClick={() => this.removeIngredients(key, "steps")}>
+                      onClick={() => this.removeItems(key, "steps")}>
                       USUŃ
                   </Button>
                   </div>
@@ -517,7 +527,7 @@ class addRecipe extends React.Component {
                   </Grid>
                 </Grid>
                 <button value="zatwierdź" onClick={this.setAllergens}>zatwierdź</button>
-
+                {this.state.errorAllergen !== "" ? <p>{this.state.errorAllergen}</p> : null}
               </div>
               {this.state.allergens.length > 0 ?
                 this.state.allergens.map((row, key) => (
@@ -525,7 +535,7 @@ class addRecipe extends React.Component {
                     <h4>Alergen {key + 1}</h4>
                     <p>{row.name}</p>
                     <Button color="primary" style={{ color: "#000000" }} className={classes.button}
-                      onClick={() => this.removeIngredients(key, "allergen")}>
+                      onClick={() => this.removeItems(key, "allergen")}>
                       USUŃ
                   </Button>
                   </div>
