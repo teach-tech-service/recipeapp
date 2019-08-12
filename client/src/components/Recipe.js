@@ -45,28 +45,12 @@ const useStyles = makeStyles({
             alignItems: "center",
             fontSize: "22px",
             padding: "12px 0 4px"
-        },
-        upVote: {
-            backgroundColor: "#ebebeb",
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
-            width: "100%"
-        },
-        time: {
-            "& p": {
-                padding: "0 0 0 5px"
-            }
-        },
-        link: {
-            textDecoration: "none"
         }
     },
     nameDes: {
         color: "black",
         fontSize: "16px",
-        padding: "25px 0 0  0px",
+        padding: "25px 0 0 0px",
         margin: "0px",
         textTransform: "uppercase",
         textDecoration: "none"
@@ -78,6 +62,18 @@ const useStyles = makeStyles({
         alignItems: "center",
         justifyContent: "center",
         width: "100%"
+    },
+    name: {
+        minHeight: "200px",
+        padding: "0 20px "
+    },
+    link: {
+        textDecoration: "none"
+    },
+    time: {
+        "& p": {
+            padding: "0 0 0 5px"
+        }
     }
 });
 
