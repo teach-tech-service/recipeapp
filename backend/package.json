@@ -1,0 +1,33 @@
+{
+  "name": "recipeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node ./index.js",
+    "debug": "node --inspect-brk ./dist/index.js",
+    "build": "babel src --out-dir ./dist --source-maps"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "mongodb"
+  ],
+  "author": "Teach Tech Service Marcin Warzybok",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.4",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/node": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/register": "^7.5.5",
+    "nodemon": "^1.19.1"
+  }
+}
