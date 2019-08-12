@@ -7,6 +7,9 @@ import difficultyIcon from "./../icons/difficulty-icon.png";
 import timeIcon from "./../icons/time-icon.png";
 import upVoteIcon from "./../icons/upvote-icon.png";
 import { Link } from "react-router-dom";
+import easy from "./../icons/easy.png";
+import medium from "./../icons/medium.png";
+import hard from "./../icons/hard.png";
 
 const useStyles = makeStyles({
     imgFluid: {
@@ -23,7 +26,8 @@ const useStyles = makeStyles({
     info: {
         borderRight: "2px solid #f5f5f5",
         display: "grid",
-        gridTemplateColumns: "1fr"
+        gridTemplateColumns: "1fr",
+        boxShadow: "1px 1px 20px -12px rgba(0,0,0,0.2)"
     },
     properties: {
         display: "grid",
@@ -69,6 +73,14 @@ const useStyles = makeStyles({
         alignItems: "center",
         justifyContent: "center",
         width: "100%"
+    },
+    time: {
+        "& p": {
+            padding: "0 0 0 5px"
+        }
+    },
+    link: {
+        textDecoration: "none"
     }
 });
 
@@ -91,13 +103,13 @@ const Recipe = props => {
                                 alt="zdjecie"
                             />
                         </div>
-                        <div>
+                        <div className={classes.time}>
                             <img src={timeIcon} alt="zdjecie" />
                             <p>{props.time}</p>
                         </div>
                     </div>
                     <div className={classes.name}>
-                        <Link to={`/${props.name}`}>
+                        <Link to={`/${props.name}`} className={classes.link}>
                             <h1 className={classes.nameDes}>{props.name}</h1>
                         </Link>
                         <p>{props.description}</p>

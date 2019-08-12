@@ -1,10 +1,12 @@
 import React, { useEffect } from "react";
-import recipesList from "./../data/recipes.json";
+
 import axios from "axios";
 import recipeImage from "./../recipeImage.jpg";
+import easy from "./../icons/easy.png";
+import medium from "./../icons/medium.png";
+import hard from "./../icons/hard.png";
 import Step from "./Step";
-import { makeStyles } from "@material-ui/styles";
-import difficultyIcon from "./../icons/difficulty-icon.png";
+
 import timeIcon from "./../icons/time-icon.png";
 import upVoteIcon from "./../icons/upvote-icon.png";
 import { withStyles } from "@material-ui/styles";
@@ -57,6 +59,11 @@ const styles = style => ({
             fontWeight: "100",
             margin: "0",
             color: "white"
+        },
+        "& img": {
+            maxWidth: "15%",
+            height: "auto",
+            padding: "0 0 10px 0"
         }
     },
     parameterWrapper: {
@@ -155,6 +162,18 @@ class SimpleRecipe extends React.Component {
         }
     };
 
+    setDifficultyImage = param => {
+        const { classes } = this.props;
+        switch (param) {
+            case "easy":
+                return <img src={easy} alt="timeIcon easy" />;
+            case "medium":
+                return <img src={medium} alt="timeIcon medium" />;
+            case "hard":
+                return <img src={hard} alt="timeIcon hard" />;
+        }
+    };
+
     render() {
         const { classes } = this.props;
         return (
@@ -209,11 +228,7 @@ class SimpleRecipe extends React.Component {
                                 </div>
                             </div>
                             <div className={classes.parameter}>
-                                <img
-                                    src={difficultyIcon}
-                                    alt="timeIcon"
-                                    className={classes.difficultyIcon}
-                                />
+                                {this.setDifficultyImage(this.state.difficulty)}
                                 <div className={classes.parameterWrapper}>
                                     <p>
                                         <b>Poziom: </b>

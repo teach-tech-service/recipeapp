@@ -133,7 +133,7 @@ export async function postRecipe(req, res) {
   recipe.save(err => {
     if (err) {
       console.log(err)
-      return res.status(400).send({});
+      return res.status(400).send({err});
     }
     res.send({});
   });

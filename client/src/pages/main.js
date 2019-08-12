@@ -1,8 +1,14 @@
 import React from "react";
 import Recipe from "./../components/Recipe";
+import plusIcon from "./../icons/add.svg";
 import Pagination from "react-js-pagination";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import InputLabel from "@material-ui/core/InputLabel";
+import MenuItem from "@material-ui/core/MenuItem";
+import FormControl from "@material-ui/core/FormControl";
+import Select from "@material-ui/core/Select";
+import Button from "@material-ui/core/Button";
 
 import { withStyles } from "@material-ui/styles";
 const styles = style => ({
@@ -54,6 +60,56 @@ const styles = style => ({
                 margin: "0 10px 0 0"
             }
         }
+    },
+    addLink: {
+        textDecoration: "none",
+        color: "black",
+
+        "& img": {
+            width: "40px",
+            backgroundColor: "#ffd71d",
+            padding: "15px",
+            borderRadius: "50%"
+        }
+    },
+    search: {
+        width: "100%",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        flexDirection: "column"
+    },
+    searchForm: {
+        width: "60%",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+
+        "& input": {
+            width: "100%",
+            fontSize: "2rem",
+            padding: "10px"
+        },
+        "& button": {
+            backgroundColor: "#ffd71d",
+            border: "none",
+            height: "100%",
+            fontSize: "2rem",
+            padding: "0 40px"
+        }
+    },
+    selectFormContainer: {
+        textAlign: "center"
+    },
+    selectForm: {
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        flexDirection: "column"
+    },
+    formControl: {
+        minWidth: 120,
+        padding: "0 0 30px 0"
     }
 });
 
@@ -279,14 +335,18 @@ class Index extends React.Component {
 
         return (
             <div className={classes.container}>
-                <h1>
-                    <Link to="/add/">dodaj przepis</Link>
-                </h1>
-                <h1>Wyszukiwarka przepisów</h1>
-                <form onSubmit={this.search}>
-                    <input type="text" placeholder="wpisz nazwe przepisu" />
-                    <button type="submit">Szukaj!</button>
-                </form>
+                <div>
+                    <Link to="/add/" className={classes.addLink}>
+                        <img src={plusIcon} alt="plus icon" />
+                    </Link>
+                </div>
+                <div className={classes.search}>
+                    <h1>Wyszukiwarka przepisów</h1>
+                    <form onSubmit={this.search} className={classes.searchForm}>
+                        <input type="text" placeholder="Na co masz ochotę?" />
+                        <button type="submit">Szukaj!</button>
+                    </form>
+                </div>
                 <div className={classes.content}>
                     <div className={classes.filter}>
                         <h1>Filtry</h1>
@@ -296,62 +356,95 @@ class Index extends React.Component {
                             onChange={this.difficultySelect}
                         >
                             <label>
-                                <input
-                                    type="checkbox"
-                                    name="easy"
-                                    value="easy"
-                                />
+                                <input type="radio" name="diff" value="easy" />
                                 Łatwy
                             </label>
                             <label>
                                 <input
-                                    type="checkbox"
-                                    name="medium"
+                                    type="radio"
+                                    name="diff"
                                     value="medium"
                                 />
                                 <span className={classes.checkmark} />
                                 Średni
                             </label>
                             <label>
-                                <input
-                                    type="checkbox"
-                                    name="hard"
-                                    value="hard"
-                                />
+                                <input type="radio" name="diff" value="hard" />
                                 <span className={classes.checkmark} />
                                 Trudny
                             </label>
                         </form>
-                        <h2>Wybór kuchni</h2>
-                        <form>
-                            <select onChange={this.optionsCuisine}>
-                                <option value="" />
-                                {this.state.cuisines.length > 0
-                                    ? this.state.cuisines.map(item => {
-                                          return (
-                                              <option value={item.name}>
-                                                  {item.name}
-                                              </option>
-                                          );
-                                      })
-                                    : null}
-                            </select>
-                            <select onChange={this.optionsAllergen}>
-                                <option value="" />
-                                {this.state.allergens.length > 0
-                                    ? this.state.allergens.map(item => {
-                                          return (
-                                              <option value={item.name}>
-                                                  {item.name}
-                                              </option>
-                                          );
-                                      })
-                                    : null}
-                            </select>
-                            <button value="wyslij" onClick={this.resetfilters}>
-                                Wyczyść filtry
-                            </button>
-                        </form>
+                        <div className={classes.selectFormContainer}>
+                            <h2>Wybór kuchni</h2>
+                            <form
+                                className={classes.selectForm}
+                                autoComplete="off"
+                            >
+                                <FormControl className={classes.formControl}>
+                                    <InputLabel htmlFor="age-simple">
+                                        Kuchnia
+                                    </InputLabel>
+                                    <Select
+                                        onChange={this.optionsCuisine}
+                                        inputProps={{
+                                            name: "age",
+                                            id: "age-simple"
+                                        }}
+                                        value={this.state.cuisine}
+                                    >
+                                        <MenuItem value="" />
+                                        {this.state.cuisines.length > 0
+                                            ? this.state.cuisines.map(item => {
+                                                  return (
+                                                      <MenuItem
+                                                          value={item.name}
+                                                          primaryText="reasa"
+                                                      >
+                                                          {item.name}
+                                                      </MenuItem>
+                                                  );
+                                              })
+                                            : null}
+                                    </Select>
+                                </FormControl>
+                                <h2>Wybór allergenów</h2>
+                                <FormControl className={classes.formControl}>
+                                    <InputLabel htmlFor="age-simple">
+                                        Allergen
+                                    </InputLabel>
+                                    <Select
+                                        onChange={this.optionsAllergen}
+                                        inputProps={{
+                                            name: "age",
+                                            id: "age-simple"
+                                        }}
+                                        value={this.state.allergen}
+                                    >
+                                        <MenuItem value="" />
+                                        {this.state.allergens.length > 0
+                                            ? this.state.allergens.map(item => {
+                                                  return (
+                                                      <MenuItem
+                                                          value={item.name}
+                                                          primaryText="reasa"
+                                                      >
+                                                          {item.name}
+                                                      </MenuItem>
+                                                  );
+                                              })
+                                            : null}
+                                    </Select>
+                                </FormControl>
+                                <Button
+                                    variant="contained"
+                                    className={classes.button}
+                                    onClick={this.resetfilters}
+                                    color="primary"
+                                >
+                                    Wyczyść filtry
+                                </Button>
+                            </form>
+                        </div>
                     </div>
                     <div className={classes.recipes}>
                         {this.state.data.map(recipe => {
