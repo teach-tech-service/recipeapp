@@ -21,7 +21,7 @@ export async function getRecipeById(req, res) {
 }
 
 export function getRecipePage(req, res) {
-    const getRecipePage = async function() {
+    const getRecipePage = async function () {
         const recipes = await RecipeModel.aggregate([
             {
                 $skip: (Number(req.params.page) - 1) * 10
@@ -33,7 +33,7 @@ export function getRecipePage(req, res) {
         return recipes;
     };
 
-    const getNumberOfRecipes = async function() {
+    const getNumberOfRecipes = async function () {
         const numberofRecipes = await RecipeModel.countDocuments({});
         return numberofRecipes;
     };
@@ -54,7 +54,7 @@ export function getRecipePage(req, res) {
 }
 
 export function getRecipeInfo(req, res) {
-    const getDistinctAllergens = async function() {
+    const getDistinctAllergens = async function () {
         const distinctAllergens = await RecipeModel.aggregate([
             {
                 $unwind: "$allergens"
@@ -78,7 +78,7 @@ export function getRecipeInfo(req, res) {
         return distinctAllergens;
     };
 
-    const getDistinctCuisine = async function() {
+    const getDistinctCuisine = async function () {
         const distinctCuisine = await RecipeModel.aggregate([
             {
                 $group: {
@@ -108,6 +108,7 @@ export function getRecipeInfo(req, res) {
 }
 
 export async function postRecipe(req, res) {
+    console.log(req.body.recipe)
     let recipe = new RecipeModel(req.body.recipe);
     recipe.save(err => {
         if (err) {
