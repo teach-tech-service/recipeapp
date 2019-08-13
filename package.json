@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/teach-tech-service/recipeapp/issues"
   },
-  "homepage": "https://github.com/teach-tech-service/recipeapp#readme"
+  "homepage": "https://github.com/teach-tech-service/recipeapp#readme",
+  "engines": {
+    "node": "10.15.3",
+    "npm": "6.10.1"
+  }
 }
