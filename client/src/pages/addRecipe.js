@@ -300,8 +300,13 @@ class addRecipe extends React.Component {
       errors: errorsList
     });
 
+    let URL = "/api/recipe";
+    if (process.env.NODE_ENV === "development") {
+      URL = "http://localhost:5000/api/recipe";
+    }
+
     axios
-      .post("http://localhost:5000/api/recipe", { recipe })
+      .post(URL, { recipe })
       .then(res => {
         console.log(res);
         console.log(res.data);

@@ -74,8 +74,11 @@ const styles = style => ({
       height: "20px"
     },
     "& span": {
-      fontSize: "10px",
-      color: "gray"
+      fontSize: "12px",
+      color: "black"
+    },
+    "& b": {
+      fontSize: 12
     }
   },
   ingredients: {
@@ -132,8 +135,12 @@ class SimpleRecipe extends React.Component {
   }
 
   componentDidMount() {
+    let URL = `/api/search?term=${this.props.name}`;
+    if (process.env.NODE_ENV === "development") {
+      URL = `http://localhost:5000/api/search?term=${this.props.name}`;
+    }
     axios
-      .get(`http://localhost:5000/api/search?term=${this.props.name}`)
+      .get(URL)
       .then(res => {
         console.log(res.data);
         this.setState({
@@ -223,13 +230,13 @@ class SimpleRecipe extends React.Component {
             <div className={classes.parameter}>
               <h1>{this.state.time}</h1>
               <div className={classes.parameterWrapper}>
-                <p>Czas przygotowania</p>
+                <p style={{ fontSize: 12, marginTop: 12, marginBottom: 10 }}>Czas przygotowania</p>
               </div>
             </div>
             <div className={classes.parameter}>
               {this.setDifficultyImage(this.state.difficulty)}
               <div className={classes.parameterWrapper}>
-                <p>
+                <p style={{ marginRight: 5 }}>
                   <b>Poziom: </b>
                 </p>
                 <span>{this.setDifficulty(this.state.difficulty)}</span>

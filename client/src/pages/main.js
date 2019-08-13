@@ -137,15 +137,24 @@ class Index extends React.Component {
   };
 
   componentDidMount() {
+    let URL = `/api/recipe/page/${this.state.activePage}`;
+    if (process.env.NODE_ENV === "development") {
+      URL = `http://localhost:5000/api/recipe/page/${this.state.activePage}`;
+    }
+
     axios
-      .get(`http://localhost:5000/api/recipe/page/${this.state.activePage}`)
+      .get(URL)
       .then(res => {
         this.setState({
           data: res.data.recipes,
           recipesNumber: res.data.numberOfRecipes
         });
+        let URL = `/api/recipe/info`;
+        if (process.env.NODE_ENV === "development") {
+          URL = `http://localhost:5000/api/recipe/info`;
+        }
         return axios
-          .get(`http://localhost:5000/api/recipe/info`)
+          .get(URL)
           .then(res => {
             this.setState({
               cuisines: res.data.cuisine,
@@ -164,14 +173,22 @@ class Index extends React.Component {
 
   handlePageChange = pageNumber => {
     this.setState({ activePage: pageNumber }, () => {
+      let URL = `/api/search?term=${this.state.name}&difficulty=${
+        this.state.difficulty
+      }&cuisine=${this.state.cuisine}&allergens=${
+        this.state.allergen
+      }&page=${pageNumber}`;
+
+      if (process.env.NODE_ENV === "development") {
+        URL = `http://localhost:5000/api/search?term=${
+          this.state.name
+        }&difficulty=${this.state.difficulty}&cuisine=${
+          this.state.cuisine
+        }&allergens=${this.state.allergen}&page=${pageNumber}`;
+      }
+
       axios
-        .get(
-          `http://localhost:5000/api/search?term=${
-            this.state.name
-          }&difficulty=${this.state.difficulty}&cuisine=${
-            this.state.cuisine
-          }&allergens=${this.state.allergen}&page=${pageNumber}`
-        )
+        .get(URL)
         .then(res => {
           this.setState({
             data: res.data.filteredRecipes,
@@ -189,6 +206,11 @@ class Index extends React.Component {
     this.setState({
       name: e.target[0].value
     });
+    let URL = "/api/recipe";
+    if (process.env.NODE_ENV === "development") {
+      URL = "http://localhost:5000/api/recipe";
+    }
+
     axios
       .get(
         `http://localhost:5000/api/search?term=${
@@ -216,14 +238,21 @@ class Index extends React.Component {
 
   difficultySelect = e => {
     if (e.target.checked) {
+      let URL = `/api/search?term=${this.state.name}&difficulty=${
+        e.target.value
+      }&page=${this.state.activePage}&cuisine=${this.state.cuisine}&allergens=${
+        this.state.allergen
+      }`;
+      if (process.env.NODE_ENV === "development") {
+        URL = `http://localhost:5000/api/search?term=${
+          this.state.name
+        }&difficulty=${e.target.value}&page=${this.state.activePage}&cuisine=${
+          this.state.cuisine
+        }&allergens=${this.state.allergen}`;
+      }
+
       axios
-        .get(
-          `http://localhost:5000/api/search?term=${
-            this.state.name
-          }&difficulty=${e.target.value}&page=${
-            this.state.activePage
-          }&cuisine=${this.state.cuisine}&allergens=${this.state.allergen}`
-        )
+        .get(URL)
         .then(res => {
           this.setState({
             data: res.data.filteredRecipes,
@@ -245,14 +274,21 @@ class Index extends React.Component {
         cuisine: e.target.value
       },
       () => {
+        let URL = `/api/search?term=${this.state.name}&difficulty=${
+          this.state.difficulty
+        }&page=${this.state.activePage}&cuisine=${
+          this.state.cuisine
+        }&allergens=${this.state.allergen}`;
+        if (process.env.NODE_ENV === "development") {
+          URL = `http://localhost:5000/api/search?term=${
+            this.state.name
+          }&difficulty=${this.state.difficulty}&page=${
+            this.state.activePage
+          }&cuisine=${this.state.cuisine}&allergens=${this.state.allergen}`;
+        }
+
         axios
-          .get(
-            `http://localhost:5000/api/search?term=${
-              this.state.name
-            }&difficulty=${this.state.difficulty}&page=${
-              this.state.activePage
-            }&cuisine=${this.state.cuisine}&allergens=${this.state.allergen}`
-          )
+          .get(URL)
           .then(res => {
             this.setState({
               data: res.data.filteredRecipes,
@@ -272,14 +308,21 @@ class Index extends React.Component {
         allergen: e.target.value
       },
       () => {
+        let URL = `/api/search?term=${this.state.name}&difficulty=${
+          this.state.difficulty
+        }&page=${this.state.activePage}&cuisine=${
+          this.state.cuisine
+        }&allergens=${this.state.allergen}`;
+        if (process.env.NODE_ENV === "development") {
+          URL = `http://localhost:5000/api/search?term=${
+            this.state.name
+          }&difficulty=${this.state.difficulty}&page=${
+            this.state.activePage
+          }&cuisine=${this.state.cuisine}&allergens=${this.state.allergen}`;
+        }
+
         axios
-          .get(
-            `http://localhost:5000/api/search?term=${
-              this.state.name
-            }&difficulty=${this.state.difficulty}&page=${
-              this.state.activePage
-            }&cuisine=${this.state.cuisine}&allergens=${this.state.allergen}`
-          )
+          .get(URL)
           .then(res => {
             this.setState({
               data: res.data.filteredRecipes,
@@ -305,14 +348,21 @@ class Index extends React.Component {
         allergen: ""
       },
       () => {
+        let URL = `/api/search?term=${this.state.name}&difficulty=${
+          this.state.difficulty
+        }&page=${this.state.activePage}&cuisine=${
+          this.state.cuisine
+        }&allergens=${this.state.allergen}`;
+        if (process.env.NODE_ENV === "development") {
+          URL = `http://localhost:5000/api/search?term=${
+            this.state.name
+          }&difficulty=${this.state.difficulty}&page=${
+            this.state.activePage
+          }&cuisine=${this.state.cuisine}&allergens=${this.state.allergen}`;
+        }
+
         axios
-          .get(
-            `http://localhost:5000/api/search?term=${
-              this.state.name
-            }&difficulty=${this.state.difficulty}&page=${
-              this.state.activePage
-            }&cuisine=${this.state.cuisine}&allergens=${this.state.allergen}`
-          )
+          .get(URL)
           .then(res => {
             this.setState({
               data: res.data.filteredRecipes,
