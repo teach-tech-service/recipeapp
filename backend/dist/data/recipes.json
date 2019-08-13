@@ -1,0 +1,1525 @@
+[
+    {
+        "name": "Przepis na placki ziemniaczane",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "author": "micheal",
+        "heroImage": "1.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "rosyjska"
+    },
+    {
+        "name": "Pierogi ruskie z jagodami",
+        "description": "Pierogi ruskie są bardzo popularne głownie na Ukrainie i w Polsce. Błędnie zakłada się, że pochodzą z Rosji. Ten prosty i sprawdzony przepis na pyszne pierogi ruskie jest moim ulubionym. Pierożki najlepiej smakują okraszone podsmażaną na maśle klarowanym cebulą. Niektórzy jednak wolą je ze śmietaną, czy też z kminkiem.",
+        "difficulty": "hard",
+        "time": "1:00",
+        "heroImage": "2.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            }
+        ],
+        "allergens": [
+            {
+                "name": "milk"
+            },
+            {
+                "name": "gluten"
+            }
+        ],
+        "cuisine": "polska"
+    },
+    {
+        "name": "Ciastko z truskawkami",
+        "description": "Lorem ipsum set albbbbb",
+        "difficulty": "easy",
+        "time": "1:00",
+        "author": "micheal",
+        "heroImage": "2.jpeg",
+        "ingredients": [
+            {
+                "name": "szklanka cukur",
+                "value": "1"
+            },
+            {
+                "name": "cukier waniliowy",
+                "value": "1"
+            },
+            {
+                "name": "szklanki oleju roślinnego lub roztopionego masła",
+                "value": "1/2"
+            },
+            {
+                "name": "szklanki (240 g) mąki pszennej",
+                "value": "1 1/2"
+            },
+            {
+                "name": "łyżeczka proszku do pieczenia",
+                "value": "1"
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            }
+        ],
+        "allergens": [
+            {
+                "name": "gluten"
+            }
+        ],
+        "cuisine": "niemiecka"
+    },
+    {
+        "name": "SERNIK Z BRZOSKWINIAMI I KRUSZONKĄ",
+        "description": "Sernik podobny do poprzedniego. Sernik wyszedł idealny, przepyszny",
+        "difficulty": "medium",
+        "time": "2:00",
+        "author":"micheal",
+        "heroImage": "3.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [
+            {
+                "name": "milk"
+            }
+        ],
+        "cuisine": "chińska"
+    },
+    {
+        "name": "serowy placek drożdżowy z leśnymi owocami",
+        "description": "ciasto drożdżowe z dodatkiem kremowego serka i z leśnymi owocami. Proporcje na dużą blachę (24x38)",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "4.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "chiń ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "chińska"
+    },
+    {
+        "name": "SERNIK Z FRUŻELINĄ JAGODOWĄ, BEZĄ I KRUSZONKĄ",
+        "description": "Sernik na kruchym spodzie z frużeliną.Sernik wyszedł aksamitny i pyszny.",
+        "difficulty": "easy",
+        "time": "2:00",
+        "heroImage": "5.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "chińska"
+    },
+    {
+        "name": "BISZKOPTOWA ROLADA Z PAPIERÓWKAMI",
+        "description": "CHiń sezonowa, bo najlepszymi jabłkami do niej to papierówki. Szybkie ciasto, zwijane po upieczeniu.Ciasto miękkie, winne i pyszne. Piekę je od kilkudziesięciu lat, tutaj zmieniłam proporcje.",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "6.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "name": "Sałatka z ziemniaków cukinii z fetą i miętą",
+        "description": "Młode smażone ziemniaki, żółta cukinia, mięta, skórka z cytryny oraz słona feta.",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "7.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [
+            {
+                "name": "nuts"
+            }
+        ],
+        "cuisine": "chińska"
+    },
+    {
+        "name": "DROŻDŻOWE BUŁECZKI A'LA HOKKAIDO",
+        "description": "Japońskie bułeczki, lecz w mojej wersji.Wyszły mięciutkie i pyszne, dzięki zasmażce.",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "9.jpg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "name": "Malinowe mini torciki jogurtowe",
+        "description": "Pyszne, szybkie i proste piankowe torciki.",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "31.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "name": "Sałatka z ogórków na zimę",
+        "description": "Pyszna sałatka i zarazem prosta w wykonaniu. Gorąco polecam",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "11.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "name": "Szybka sałatka",
+        "description": "Lekka pyszna szybka sałatka ze składników które każdy ma w swojej lodówce",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "12.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "name": "Kokosowa słodycz",
+        "description": "Kokosowa słodycz to rewelacyjny kokos, pyszna czekolada, cudowny mus czekoladowy i ukryte kakaowe ciastka. A wszystko to bez pieczenia.",
+        "difficulty": "hard",
+        "time": "2:00",
+        "heroImage": "13.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "name": "Wieniec wiśniowo brzdącowy",
+        "description": "Bezowy wieniec z frużeliną wiśniową i kremem brzdącowym. Niebo dla podniebienia, tak bym rzekła. Kwaskowa frużelina przełamuję słodka bezę, do tego pyszny brzdącowy krem połączony ze Śmietaną. Zapewniam ,że na jednym gniazdu nie poprzestaniecie.",
+        "difficulty": "hard",
+        "time": "2:00",
+        "heroImage": "14.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "name": "Pietruszkowy dorsz z puree z bobu",
+        "description": "Lekki, szybki i jaki dobry obiad z bobem, dorszem, natką pietruszki i pysznym zimnym sosem ziołowym. Puree z bobu jest delikatne i maślane, ryba soczysta. Obiad zrobimy w 30 minut.",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "15.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "name": "Wątróbka w sosie wiśniowym",
+        "description": "Wątróbka w trochę innym wydaniu, ale jaka dobra. Sos wiśniowy jest pyszny, i z wątróbką idealnie się łączy. Uwielbiam dodawać owoce do potraw mięsnych. Soczyste i kwaskowe wiśnie są idealne do tego.",
+        "difficulty": "hard",
+        "time": "2:00",
+        "heroImage": "16.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "name": "Makaron z serem i sosem truskawkowym",
+        "description": "Ostatnie truskawki które kupiłam przeznaczyłam na letni obiad z sosem truskawkowo balsamiczym. Żałuję, że zrobiłam go za mało bo był pyszny, i zjadłoby się więcej. Na upalne letnie dni taki obiad to raj dla podniebienia. Na pewno będzie smakował dzieciom. Spaghetti w wersji na słodko :-)",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "17.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "name": "Pietruszkowe gofry z kurczakiem i jajem",
+        "description": "Wytrawne gofry pietruszkowe z piersią kurczaka i dużą ilością warzyw oraz jajem w koszulce. Gofry podałam w formie kanapki. Są fajną i pyszną propozycją na przekąskę. Gofry można podawać nie tylko na słodko. Do moich dodałam starty parmezan i zdrową natkę.",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "18.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "name": "Gulasz Paprykowy",
+        "description": "Tak niewiele nam potrzeba na pyszny obiadek.",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "19.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "name": "Tuńczyk z salsą z mango z grilla",
+        "description": "Świeży tuńczyk z grilla z bakłażanem i salsą z mango. Lekki, szybki i pyszny obiad z grilla. Możemy też taką propozycją oczarować gości. Ryba z grilla nie musi być nudna. Tuńczyka wysmażamy tak jak kto lubi.",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "20.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "name": "Pyzy z mięsem z rosołu",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "21.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "name": "Pyszne chrupiące gofry",
+        "description": "prosta potrawa przygotowywana z ziemniaków, placki smażone na tłuszczu. Głównymi składnikami są starte na tarce surowe ziemniaki z dodatkiem cebuli, jajek, niewielkiej ilości mąki i soli. Według niektórych przepisów starte ziemniaki z cebulą zalewa się wrzącym mlekiem",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "22.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "name": "Twarogowe Racuszki z Borówkami",
+        "description": "Lubicie takie śniadania? My z synem uwielbiamy,korzystam póki ma wakacje,bo jak pójdzie do przedszkola to zostaną nam tylko weekendy ;-)",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "23.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "name": "Brzoskwiniowy koktajl z sokiem grejpfruta i orzechami",
+        "description": "Koktajl na śniadanie-jak najbardziej tak:) W swoim składzie ma wszystko co najlepsze-owoce, orzechy, płatki owsiane,miód,nabiał.",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "24.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "name": "Czekoladowe szyszki",
+        "description": "Czekoladowe szyszki to przepis na którym tak naprawdę się uczyłam przygotowywać swoje pierwsze desery. Nie jest to trudny deser. spokojnie możemy go przygotować nawet z dziećmi.",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "25.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "name": "Ziemniaki z masełkiem ziołowo cosnkowym ze schabowym w krakersowej panierce",
+        "description": "Ziemniaczki okraszane masełkiem z dodatkami-aromatycznymi, do tego chrupiący schabowy, ogórek małosolny i danie dla mięsożerców gotowe:)Wspaniały aromat dania zwabi bardzo szybko domowników do rodzinnego stołu.",
+        "difficulty": "medium",
+        "author":"martin",
+        "time": "2:00",
+        "heroImage": "26.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "name": "Kiszone zielone pomidory",
+        "description": "Okazało się, że niedojrzałe pomidory to doskonały składnik kiszonek. Pozostają smaczne nawet po dłuższym czasie kiszenia.",
+        "difficulty": "medium",
+        "time": "2:00",
+        "heroImage": "27.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "name": "Śniadaniowe bułeczki cynamonowe z truskawkami",
+        "description": "Śniadanie na słodko? Czemu nie. My uwielbiamy. A takie słodkie bułeczki z truskawkami i mnóstwem cynamonu to już bardzo. Idealne do odrywania i do podania z kubkiem mleka, kakao czy herbaty. Jak kto lubi. Ja najbardziej lubię z filiżanką aromatycznej kawy, bo tak właśnie zaczynam dzień, od kawy. A często się kuszę na słodkie śniadanie. I nie ma u mnie problemu, żeby wstać skoro świt i upiec pyszne drożdżowe bułeczki, a jak przyjemnie jest budzić domowników takim słodkim zapachem ciasta drożdżowego i aromatycznego cynamonu i pieczonych truskawek. Może spróbujecie? Zapewniam, że podbijecie serca domowników.",
+        "difficulty": "hard",
+        "time": "2:00",
+        "heroImage": "27.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "polska"
+    },
+    {
+        "name": "Sałatka z surimi i suszonymi pomidorami",
+        "description": "Pyszna i szybka sałatka, w sam raz na wizytę niezapowiedzianych gości.",
+        "difficulty": "easy",
+        "time": "2:00",
+        "heroImage": "28.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "niemiecka"
+    },
+    {
+        "name": "Orzeżwiające ciasto z cukinią i miętą",
+        "description": "Ciasto z owocami, masą budyniową i polewą czekoladową.",
+        "difficulty": "easy",
+        "time": "2:00",
+        "heroImage": "29.jpeg",
+        "ingredients": [
+            {
+                "name": "ziemniaki",
+                "value": "1/2 kg"
+            },
+            {
+                "name": "cebuli",
+                "value": "1/4"
+            },
+            {
+                "name": "mąki pszennej",
+                "value": "1/2"
+            },
+            {
+                "name": "jajko",
+                "value": "1"
+            },
+            {
+                "name": "olej roślinny do smażenia",
+                "value": ""
+            },
+            {
+                "name": "sól",
+                "value": ""
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 2,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. "
+            },
+            {
+                "number": 3,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet, ipsum ut pulvinar aliquam, dolor purus laoreet quam, eget tristique erat dolor vitae nunc. ",
+                "image": ""
+            }
+        ],
+        "allergens": [],
+        "cuisine": "niemiecka"
+    }
+]

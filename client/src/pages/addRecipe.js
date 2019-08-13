@@ -8,22 +8,8 @@ import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
 import Button from "@material-ui/core/Button";
 import InputLabel from "@material-ui/core/InputLabel";
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableHead from '@material-ui/core/TableHead';
-import TablePagination from '@material-ui/core/TablePagination';
-import TableRow from '@material-ui/core/TableRow';
-import TableSortLabel from '@material-ui/core/TableSortLabel';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import Paper from '@material-ui/core/Paper';
-import Checkbox from '@material-ui/core/Checkbox';
-import IconButton from '@material-ui/core/IconButton';
-import Tooltip from '@material-ui/core/Tooltip';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Switch from '@material-ui/core/Switch';
-import Grid from '@material-ui/core/Grid';
+import Grid from "@material-ui/core/Grid";
+import { withRouter } from "react-router-dom";
 
 const styles = style => ({
   container: {
@@ -34,7 +20,7 @@ const styles = style => ({
     "& > input": {
       margin: "10px 0 "
     },
-    margin: 10,
+    margin: 10
   },
   form: {
     display: "flex",
@@ -55,7 +41,6 @@ const styles = style => ({
     justifyContent: "center"
   },
   listItem: {
-
     "& label": {
       padding: "15px 0"
     }
@@ -72,7 +57,7 @@ const styles = style => ({
     padding: "15px 0"
   },
   addedItem: {
-    borderBottom: "2px solid #ffd71d",
+    borderBottom: "2px solid #ffd71d"
   },
   sendBtn: {
     backgroundColor: "#ffd71d",
@@ -88,7 +73,7 @@ const styles = style => ({
   },
   textField: {
     margin: "0",
-    padding: 2,
+    padding: 2
   },
   formControl: {
     minWidth: 140
@@ -133,7 +118,7 @@ class addRecipe extends React.Component {
       ...this.state,
       [e.target.name]: e.target.value
     });
-    console.log(this.state.step)
+    console.log(this.state.step);
   };
 
   selectDifficulty = e => {
@@ -170,7 +155,7 @@ class addRecipe extends React.Component {
       });
     }
 
-    console.log(this.state.ingredients)
+    console.log(this.state.ingredients);
   };
   setSteps = e => {
     e.preventDefault();
@@ -195,7 +180,6 @@ class addRecipe extends React.Component {
         errorStep: "To pole nie może być puste"
       });
     }
-
   };
 
   setAllergens = e => {
@@ -224,50 +208,49 @@ class addRecipe extends React.Component {
   };
 
   removeItems = (e, name) => {
-    console.log(e, name)
+    console.log(e, name);
     if (name === "ingredients") {
       let items = this.state.ingredients.filter((item, key) => {
         if (key !== e) {
-          return item
+          return item;
         }
-      })
-      console.log(items)
+      });
+      console.log(items);
 
       this.setState({
         ...this.state,
-        ingredients: items,
-      })
+        ingredients: items
+      });
     } else if (name === "steps") {
       let items = this.state.steps.filter((item, key) => {
         if (key !== e) {
-          return item
+          return item;
         }
-      })
-      console.log(items)
+      });
+      console.log(items);
       for (let i = 0; i < items.length; i++) {
-        items[i].number = i + 1
+        items[i].number = i + 1;
       }
       this.setState({
         ...this.state,
-        steps: items,
-      })
+        steps: items
+      });
     } else if (name === "allergen") {
       let items = this.state.allergens.filter((item, key) => {
         if (key !== e) {
-          return item
+          return item;
         }
-      })
-      console.log(items)
+      });
+      console.log(items);
       for (let i = 0; i < items.length; i++) {
-        items[i].number = i + 1
+        items[i].number = i + 1;
       }
       this.setState({
         ...this.state,
-        allergens: items,
-      })
+        allergens: items
+      });
     }
-
-  }
+  };
 
   sendRecipe = () => {
     let recipe = {
@@ -322,6 +305,7 @@ class addRecipe extends React.Component {
       .then(res => {
         console.log(res);
         console.log(res.data);
+        this.props.history.push("/");
       })
       .catch(error => {
         console.log(error);
@@ -409,12 +393,14 @@ class addRecipe extends React.Component {
               <div className={classes.formItem}>
                 <h1>Lista produktów</h1>
 
-                <Grid container spacing={3}
+                <Grid
+                  container
+                  spacing={3}
                   direction="row"
                   justify="center"
-                  alignItems="center">
+                  alignItems="center"
+                >
                   <Grid item xs={12}>
-
                     <TextField
                       id="standard-name"
                       label="Nazwa"
@@ -443,31 +429,42 @@ class addRecipe extends React.Component {
                     />
                   </Grid>
                 </Grid>
-                <button value="zatwierdź" onClick={this.setIngredients}>zatwierdź</button>
-                {this.state.errorIng !== "" ? <p>{this.state.errorIng}</p> : null}
+                <button value="zatwierdź" onClick={this.setIngredients}>
+                  zatwierdź
+                </button>
+                {this.state.errorIng !== "" ? (
+                  <p>{this.state.errorIng}</p>
+                ) : null}
               </div>
-              {this.state.ingredients.length > 0 ?
-                this.state.ingredients.map((row, key) => (
-                  <div className={classes.addedItem}>
-                    <h4>{row.name}</h4>
-                    <p>{row.value}</p>
-                    <Button color="primary" style={{ color: "#000000" }} className={classes.button}
-                      onClick={() => this.removeItems(key, "ingredients")}>
-                      USUŃ
-                  </Button>
-                  </div>
-                )) : null}
+              {this.state.ingredients.length > 0
+                ? this.state.ingredients.map((row, key) => (
+                    <div className={classes.addedItem}>
+                      <h4>{row.name}</h4>
+                      <p>{row.value}</p>
+                      <Button
+                        color="primary"
+                        style={{ color: "#000000" }}
+                        className={classes.button}
+                        onClick={() => this.removeItems(key, "ingredients")}
+                      >
+                        USUŃ
+                      </Button>
+                    </div>
+                  ))
+                : null}
             </form>
           </div>
           <div className={classes.listItem}>
             <form onSubmit={this.setSteps} className={classes.form}>
               <div className={classes.formItem}>
                 <h1>Lista kroków</h1>
-                <Grid container spacing={3}
+                <Grid
+                  container
+                  spacing={3}
                   direction="row"
                   justify="center"
-                  alignItems="center">
-
+                  alignItems="center"
+                >
                   <Grid item xs={12}>
                     <TextField
                       id="outlined-multiline-static2"
@@ -484,20 +481,29 @@ class addRecipe extends React.Component {
                     />
                   </Grid>
                 </Grid>
-                <button value="zatwierdź" onClick={this.setSteps}>zatwierdź</button>
-                {this.state.errorStep !== "" ? <p>{this.state.errorStep}</p> : null}
+                <button value="zatwierdź" onClick={this.setSteps}>
+                  zatwierdź
+                </button>
+                {this.state.errorStep !== "" ? (
+                  <p>{this.state.errorStep}</p>
+                ) : null}
               </div>
-              {this.state.steps.length > 0 ?
-                this.state.steps.map((row, key) => (
-                  <div className={classes.addedItem}>
-                    <h4>Krok {key + 1}</h4>
-                    <p>{row.description}</p>
-                    <Button color="primary" style={{ color: "#000000" }} className={classes.button}
-                      onClick={() => this.removeItems(key, "steps")}>
-                      USUŃ
-                  </Button>
-                  </div>
-                )) : null}
+              {this.state.steps.length > 0
+                ? this.state.steps.map((row, key) => (
+                    <div className={classes.addedItem}>
+                      <h4>Krok {key + 1}</h4>
+                      <p>{row.description}</p>
+                      <Button
+                        color="primary"
+                        style={{ color: "#000000" }}
+                        className={classes.button}
+                        onClick={() => this.removeItems(key, "steps")}
+                      >
+                        USUŃ
+                      </Button>
+                    </div>
+                  ))
+                : null}
             </form>
           </div>
 
@@ -505,10 +511,13 @@ class addRecipe extends React.Component {
             <form onSubmit={this.setAllergens} className={classes.form}>
               <div className={classes.formItem}>
                 <h1>Lista alergenów</h1>
-                <Grid container spacing={3}
+                <Grid
+                  container
+                  spacing={3}
                   direction="row"
                   justify="center"
-                  alignItems="center">
+                  alignItems="center"
+                >
                   <Grid item xs={12}>
                     <TextField
                       id="outlined-multiline-static3"
@@ -522,24 +531,32 @@ class addRecipe extends React.Component {
                       fullWidth={true}
                       name="allergen"
                       onChange={this.handleChange}
-
                     />
                   </Grid>
                 </Grid>
-                <button value="zatwierdź" onClick={this.setAllergens}>zatwierdź</button>
-                {this.state.errorAllergen !== "" ? <p>{this.state.errorAllergen}</p> : null}
+                <button value="zatwierdź" onClick={this.setAllergens}>
+                  zatwierdź
+                </button>
+                {this.state.errorAllergen !== "" ? (
+                  <p>{this.state.errorAllergen}</p>
+                ) : null}
               </div>
-              {this.state.allergens.length > 0 ?
-                this.state.allergens.map((row, key) => (
-                  <div className={classes.addedItem}>
-                    <h4>Alergen {key + 1}</h4>
-                    <p>{row.name}</p>
-                    <Button color="primary" style={{ color: "#000000" }} className={classes.button}
-                      onClick={() => this.removeItems(key, "allergen")}>
-                      USUŃ
-                  </Button>
-                  </div>
-                )) : null}
+              {this.state.allergens.length > 0
+                ? this.state.allergens.map((row, key) => (
+                    <div className={classes.addedItem}>
+                      <h4>Alergen {key + 1}</h4>
+                      <p>{row.name}</p>
+                      <Button
+                        color="primary"
+                        style={{ color: "#000000" }}
+                        className={classes.button}
+                        onClick={() => this.removeItems(key, "allergen")}
+                      >
+                        USUŃ
+                      </Button>
+                    </div>
+                  ))
+                : null}
             </form>
           </div>
         </div>
@@ -551,4 +568,4 @@ class addRecipe extends React.Component {
   }
 }
 
-export default withStyles(styles)(addRecipe);
+export default withStyles(styles)(withRouter(addRecipe));
