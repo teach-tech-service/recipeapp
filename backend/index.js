@@ -11,6 +11,7 @@ const PORT = process.env.PORT || 5000,
     process.env.MONGOLAB_URI || "mongodb://localhost:27017/recipeapp",
   app = express();
 
+app.use(express.static(path.join(__dirname, "client/build")));
 mongodbConnection(MONGO_DB_URL);
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -18,6 +19,9 @@ app.use(cors());
 app.use("/api/recipe", recipeRoutes());
 app.use("/api/search", searchRoutes());
 app.use("/api/statistics", statisticsRoutes());
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname + "../../client/build/index.html"));
+});
 
 app.listen(PORT, () => {
   console.log(`Application is running on port ${PORT}`);
